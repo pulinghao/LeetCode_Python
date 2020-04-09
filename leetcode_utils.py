@@ -89,4 +89,9 @@ def stringToTreeNode(input):
             rightNumber = int(item)
             node.right = TreeNode(rightNumber)
             nodeQueue.append(node.right)
-    return root
+
+def intToString(input):
+    if input is None:
+        input = 0
+    return str(input)
+
