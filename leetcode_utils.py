@@ -9,17 +9,18 @@
 
 import json
 
+
 class TreeNode(object):
     def __init__(self, x):
         self.val = x
         self.left = None
         self.right = None
 
+
 class ListNode(object):
     def __init__(self, x):
         self.val = x
         self.next = None
-
 
 
 def stringToListNode(input):
@@ -42,6 +43,7 @@ def stringToListNode(input):
     ptr = dummyRoot.next
     return ptr
 
+
 def listNodeToString(node):
     """
     链表转字符串
@@ -57,6 +59,7 @@ def listNodeToString(node):
         result += str(node.val) + ", "
         node = node.next
     return "[" + result[:-2] + "]"
+
 
 def stringToTreeNode(input):
     input = input.strip()
@@ -89,9 +92,10 @@ def stringToTreeNode(input):
             rightNumber = int(item)
             node.right = TreeNode(rightNumber)
             nodeQueue.append(node.right)
+    return root
+
 
 def intToString(input):
     if input is None:
         input = 0
     return str(input)
-
