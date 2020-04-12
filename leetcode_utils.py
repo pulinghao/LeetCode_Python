@@ -94,8 +94,50 @@ def stringToTreeNode(input):
             nodeQueue.append(node.right)
     return root
 
+def treeNodeToString(root):
+    if not root:
+        return "[]"
+    output = ""
+    queue = [root]
+    current = 0
+    while current != len(queue):
+        node = queue[current]
+        current = current + 1
+
+        if not node:
+            output += "null, "
+            continue
+
+        output += str(node.val) + ", "
+        queue.append(node.left)
+        queue.append(node.right)
+    return "[" + output[:-2] + "]"
 
 def intToString(input):
     if input is None:
         input = 0
     return str(input)
+
+
+def integerListToString(nums, len_of_list=None):
+    if not len_of_list:
+        len_of_list = len(nums)
+    return json.dumps(nums[:len_of_list])
+
+
+def doubleToString(input):
+    if input is None:
+        input = 0
+    return "%.5f" % input
+
+def doubleListToString(nums, len_of_list=None):
+    if nums is None or len_of_list == 0:
+        return "[]"
+
+    if len_of_list is None:
+        len_of_list = len(nums)
+
+    serializedDoubles = []
+    for num in nums:
+        serializedDoubles.append(doubleToString(num))
+    return "[{}]".format(','.join(serializedDoubles))

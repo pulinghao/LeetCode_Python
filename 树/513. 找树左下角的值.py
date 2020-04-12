@@ -20,10 +20,9 @@ class Solution(object):
         """
         depth,value = self.depth(root)
         return value
-
-
         pass
 
+    # 递归方法
     def depth(self,node):
         if not node:
             return 0 , sys.maxint
@@ -42,6 +41,25 @@ class Solution(object):
             return right_depth + 1,right_value
 
         pass
+
+    # 迭代方法
+    def anotherDepth(self,node):
+        # 层序遍历
+
+        queue = [node]
+        while len(queue):
+            cur = queue.pop(0)
+
+            if cur.right:
+                queue.append(cur.right)
+
+            if cur.left:
+                queue.append(cur.left)
+        return cur.val
+
+
+        pass
+
 
 if __name__ == '__main__':
     # line = "[2,1,3]"
