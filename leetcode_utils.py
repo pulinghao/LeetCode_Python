@@ -118,6 +118,8 @@ def intToString(input):
         input = 0
     return str(input)
 
+def stringToInt(input):
+    return int(input)
 
 def integerListToString(nums, len_of_list=None):
     if not len_of_list:
