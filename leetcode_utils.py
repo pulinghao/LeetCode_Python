@@ -143,3 +143,8 @@ def doubleListToString(nums, len_of_list=None):
     for num in nums:
         serializedDoubles.append(doubleToString(num))
     return "[{}]".format(','.join(serializedDoubles))
+
+
+
+def int2dArrayToString(input):
+    return json.dumps(input)
