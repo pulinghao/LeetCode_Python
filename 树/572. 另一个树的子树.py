@@ -17,28 +17,27 @@ class Solution(object):
         :type t: TreeNode
         :rtype: bool
         """
-        queue = [s]
-        while len(queue):
-            node = queue.pop(0)
+        if not t:
+            return True
 
-            if not node and not t:
-                return True
-            elif not node and t:
-                return False
-            elif node and not t:
-                return True
+        if not s and t:
+            return False
 
-
-            if node.val == t.val:
-                if not node.left and not node.right and not t.left and not t.right:
-                    return True
-                else:
-                    return self.isSubtree(node.left,t.left) and self.isSubtree(node.right,t.right)
-            else:
-                queue.append(node.left)
-                queue.append(node.right)
+        return self.isSameTree(s,t) or self.isSubtree(s.left,t) or self.isSubtree(s.right,t)
 
         pass
+
+    def isSameTree(self,s,t):
+        if not s and not t:
+            return True
+
+        if not s or not t:
+            return False
+
+        if s.val == t.val:
+            return self.isSameTree(s.left,t.left) and self.isSameTree(s.right,t.right)
+
+        return False
 
 if __name__ == '__main__':
     line = "[1,1]"

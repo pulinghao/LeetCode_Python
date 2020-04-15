@@ -18,7 +18,6 @@ class Solution(object):
 
         queue = [root]
 
-        
 
 if __name__ == '__main__':
     line1 = "[5,4,8,11,null,13,4,7,2,null,null,null,1]"
