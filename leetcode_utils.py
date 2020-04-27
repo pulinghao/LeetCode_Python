@@ -44,6 +44,13 @@ def stringToListNode(input):
     return ptr
 
 
+def stringToListNodeArray(input):
+    listNodeArrays = json.loads(input)
+    nodes = []
+    for listNodeArray in listNodeArrays:
+        nodes.append(stringToListNode(json.dumps(listNodeArray)))
+    return nodes
+
 def listNodeToString(node):
     """
     链表转字符串

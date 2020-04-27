@@ -36,6 +36,7 @@ class Solution(object):
                 new = True
         return res
 
+
 if __name__ == '__main__':
     line = "[1,2,3,null,5,null,4]"
     root = leetcode_utils.stringToTreeNode(line)
