@@ -26,8 +26,5 @@ class Solution(object):
         return dp[n] % 1000000007
 
 
-
-
-
 if __name__ == '__main__':
     print Solution().waysToChange(n = 6)
