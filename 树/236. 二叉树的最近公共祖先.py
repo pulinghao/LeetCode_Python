@@ -13,6 +13,8 @@ import leetcode_utils
 
 class Solution(object):
     def __init__(self):
+        self.fa = {}
+        self.vis = {}
         pass
 
     def func(self, root):
@@ -25,7 +27,7 @@ class Solution(object):
         :type q: TreeNode
         :rtype: TreeNode
         """
-
+        # 方法1.递归
         if not root:
             return None
 
@@ -48,6 +50,28 @@ class Solution(object):
 
         return None
 
+    # 方法2:
+    def lowestCommonAncestor2(self, root, p, q):
+        self.fa[(root.val)] = None # 根节点的父节点为空
+        self.dfs(root)
+        while p:
+            self.vis[p.val] = True;
+            p = self.fa[p.val] #获取P的父节点
+
+        while q:
+            if q.val in self.vis.keys():
+                return q
+            q = self.fa[q.val]
+        pass
+
+    def dfs(self,node):
+        if node.left:
+            self.fa[(node.left.val)] = node
+            self.dfs(node.left)
+        if node.right:
+            self.fa[(node.right.val)] = node
+            self.dfs(node.right)
+
 
 
 if __name__ == '__main__':
@@ -59,7 +83,7 @@ if __name__ == '__main__':
     line = "[1]"
     # q = leetcode_utils.stringToInt(line)
     q_node = leetcode_utils.stringToTreeNode(line)
-    ret = Solution().lowestCommonAncestor(root, p_node, q_node)
+    ret = Solution().lowestCommonAncestor2(root, p_node, q_node)
 
     out = leetcode_utils.treeNodeToString(ret)
     print out
