@@ -32,10 +32,34 @@ class Solution(object):
 
         return res
 
+    def levelOrder2(self, root):
+        """ 2刷
+        :type root: TreeNode
+        :rtype: List[List[int]]
+        """
+        if not root:
+            return []
+        queue = [root]
+        res = []
+        while len(queue) > 0:
+            n = len(queue)
+            row = []
+            while n > 0:
+                cur = queue.pop(0)
+                n -= 1
+                row.append(cur.val)
+                if cur.left:
+                    queue.append(cur.left)
+                if cur.right:
+                    queue.append(cur.right)
+            res.append(row)
+
+        return res
+
 
 if __name__ == '__main__':
     line = "[3,9,20,null,null,15,7]"
     root = leetcode_utils.stringToTreeNode(line)
-    ret = Solution().levelOrder(root)
+    ret = Solution().levelOrder2(root)
     out = leetcode_utils.int2dArrayToString(ret)
     print out
