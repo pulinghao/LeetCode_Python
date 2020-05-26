@@ -5,6 +5,8 @@
  @Author   :pulinghao@baidu.com
  @File     :二分查找原形.py 
  @Description :
+ 参考labuladong帖子：
+ https://labuladong.gitbook.io/algo/suan-fa-si-wei-xi-lie/er-fen-cha-zhao-xiang-jie
 """
 
 class Solution:
