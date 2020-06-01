@@ -8,6 +8,7 @@
 """
 
 import leetcode_utils
+import collections
 class Solution(object):
     def isSymmetric(self, root):
         """
@@ -42,6 +43,25 @@ class Solution(object):
                     return self.symmetric(ltree.left, rtree.right) and self.symmetric(ltree.right, rtree.left)
         return False
         pass
+
+    # 迭代方法
+    def symmetricIteraion(self,leftT,rightT):
+        queue = collections.deque()
+        queue.append((leftT,rightT))
+        while queue:
+            left,right = queue.popleft()
+            if not left and not right:
+                # 两个节点为空
+                continue
+            if not left or not right:
+                return False
+            if left.val != right.val:
+                return False
+
+            queue.append((left.left,right.right))
+            queue.append((left.right,right.left))
+
+        return True
 
 
 if __name__ == '__main__':
