@@ -13,32 +13,32 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[List[int]]
         """
+
+        # 1.先排序
+        nums.sort()
+
         # 定义两个数组，一个记录结果，一个保存路径
         res = []
+        track = []
 
-        new_nums = []
-        for num in nums:
-            if num in new_nums:
-                continue
-            else:
-                new_nums.append(num)
-
-        track = []    # 保留数值
-        def backtrack(nums,new_nums,track):
+        used = [False for i in range(len(nums))]
+        def backtrack(nums,track,used):
             if len(nums) == len(track):
                 res.append(list(track))
                 return
 
-            for i in range(len(new_nums)):
-                if new_nums[i] in track:
-                    continue
+            for i in range(len(nums)):
+                # 设置去重条件
+                if not used[i]:
+                    if i > 0 and nums[i] == nums[i - 1] and not used[i - 1]:
+                        continue
+                    used[i] = True
+                    track.append(nums[i])
+                    backtrack(nums,track,used)
+                    track.pop()
+                    used[i] = False
 
-                track.append(new_nums[i])
-                backtrack(nums,new_nums,track)
-                track.pop(-1)
-
-
-        backtrack(nums,new_nums,track)
+        backtrack(nums,track,used)
         return res
 
 if __name__ == '__main__':
