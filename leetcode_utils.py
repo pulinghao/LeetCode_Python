@@ -158,3 +158,9 @@ def stringToIntegerList(input):
 def int2dArrayToString(input):
     return json.dumps(input)
 
+
+def stringToChar2dArray(input):
+    return json.loads(input)
+
+def char2dArrayToString(input):
+    return json.dumps(input)
