@@ -1,3 +1,13 @@
+# 字符
+
+```python
+# 取ascii码
+# 小写
+ascii = ord(char)
+```
+
+
+
 # 排序
 
 ## 普通排序
@@ -26,14 +36,20 @@ intervals.sort(key=lambda x: x[0])
 
 ## Collections
 
-```
+```python
 import collections
 ```
 
 ### 字典 defaultdict
 
-```
+```python
 from collections import defaultdict
+
+# 初始化
+dict1 = defaultdict(int)
+dict2 = defaultdict(set)
+dict3 = defaultdict(str)
+dict4 = defaultdict(list)
 ```
 
 作用是当key不存在时，返回的是工厂函数的默认值，比如list对应[ ]，str对应的是空字符串，set对应set( )，int对应0，
