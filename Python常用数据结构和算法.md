@@ -6,6 +6,15 @@
 ascii = ord(char)
 ```
 
+# 获取最大值、最小值
+
+```
+# 整数最大值
+import sys
+
+sys.maxint
+```
+
 
 
 # 排序
