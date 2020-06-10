@@ -23,5 +23,6 @@ class Solution(object):
 
 
 
+
 if __name__ == '__main__':
     print Solution().maxSubArray(nums= [31,-41,59,26,-53,58,97,-93,-23,84])

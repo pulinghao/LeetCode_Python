@@ -58,3 +58,20 @@ dict4 = defaultdict(list)
 
 ### 队列 deque
 
+```python
+# 初始化
+queue = deque()
+
+# 设置队列长度
+queue = deque(maxlen=10)
+
+# 获取第一个元素
+first = queue.popleft()
+
+# 在队尾添加一个元素
+queue.append(item)
+
+# 在队头添加一个元素
+queue.appendleft(item)
+```
+
