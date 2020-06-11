@@ -30,6 +30,15 @@ a.sort() #改变a的内容，默认升序
 a = sorted(a) # 不改变a的内容，默认升序
 ```
 
+## lamda表达式
+
+```
+# 第一个键降序，当第一个键相等时，第二个键升序
+array.sort(key = lambda x: (-x[0], x[1]))
+```
+
+
+
 ## 按某个Key排序对元组排序
 
 ```python
@@ -42,6 +51,24 @@ intervals.sort(key=lambda x: x[0])
 
 
 # 数据结构
+
+## 数组List（Python原生）
+
+#### 插入元素
+
+```python
+# 插入元素
+# index为要插入的索引，item为插入的元素
+array.insert(index,item) 
+```
+
+#### 构造三维数组
+
+```python
+list = [[[0 for i in range(m)] for i in range(n) ] for i in range(k)]
+```
+
+
 
 ## Collections
 
