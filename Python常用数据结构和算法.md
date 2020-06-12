@@ -8,7 +8,7 @@ ascii = ord(char)
 
 # 获取最大值、最小值
 
-```
+```python
 # 整数最大值
 import sys
 
