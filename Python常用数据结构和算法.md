@@ -111,3 +111,23 @@ queue.append(item)
 queue.appendleft(item)
 ```
 
+# 二分查找框架 [bisect](https://www.cnblogs.com/zhaoyingjie/p/9468935.html)
+
+使用前，务必确保列表是已经排序的
+
+```python
+array = [2,4,7,9]
+array.sort()
+# 插入函数
+bisect.insert(array,3) #结果为[2,3,4,7,9]
+
+# 查找该数值将会插入的位置并返回，而不会插入。
+bisect.bisect(data,1) # 结果0
+
+#bisect_left 有重复数的情况下，插入到最左边的那个位置。返回将会插入的位置
+bisect.bisect_left(array,4) # 结果为2
+
+#bisect_right 有重复数的情况下，插入到最右边的那个位置。返回将会插入的位置
+bisect.bisect_right(array,4) #结果为3
+```
+
