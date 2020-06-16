@@ -68,6 +68,21 @@ array.insert(index,item)
 list = [[[0 for i in range(m)] for i in range(n) ] for i in range(k)]
 ```
 
+#### 数组反转
+
+```python
+# 将list反转，list本身不会变化
+reverselist = list[::-1] 
+```
+
+
+
+#### 在末尾添加另外一个数组
+
+```python
+list.extend(anotherList)
+```
+
 
 
 ## Collections
