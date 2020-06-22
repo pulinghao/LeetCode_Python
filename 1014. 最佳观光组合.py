@@ -4,7 +4,7 @@
  @Time     :2020/6/17 4:04 下午
  @Author   :pulinghao@baidu.com
  @File     :1014. 最佳观光组合.py 
- @Description :
+ @Description : 前缀和 + 数学
 """
 
 

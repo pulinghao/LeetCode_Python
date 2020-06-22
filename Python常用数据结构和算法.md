@@ -1,12 +1,26 @@
-# 字符
+# 字符与数字
+
+## 字符
+
+### 取ascii码
 
 ```python
-# 取ascii码
 # 小写
 ascii = ord(char)
 ```
 
-# 获取最大值、最小值
+### 判断某个字符是否是数字
+
+```python
+c.isdigit()
+s[i].isdigit()
+```
+
+
+
+## 数字
+
+### 获取最大值、最小值
 
 ```python
 # 整数最大值
@@ -144,5 +158,16 @@ bisect.bisect_left(array,4) # 结果为2
 
 #bisect_right 有重复数的情况下，插入到最右边的那个位置。返回将会插入的位置
 bisect.bisect_right(array,4) #结果为3
+```
+
+# 正则表达式
+
+### 字符串处理
+
+### 提取左右括号中的内容
+
+```python
+import re
+re.findall(r'[(](.*?)[)]', str1) 
 ```
 

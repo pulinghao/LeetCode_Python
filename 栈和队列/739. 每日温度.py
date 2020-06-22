@@ -23,16 +23,26 @@ class Solution(object):
         :type T: List[int]
         :rtype: List[int]
         """
-        ans = [0] * len(T)
-        stack = []
-        for i in range(len(T)):
-            while len(stack) != 0 and T[i] > T[stack[-1]]:
-                top = stack.pop(-1)
-                ans[top] = i - top
-                pass
+        # ans = [0] * len(T)
+        # stack = []
+        # for i in range(len(T)):
+        #     while len(stack) > 0 and T[i] > T[stack[-1]]:
+        #         top = stack.pop(-1)
+        #         ans[top] = i - top
+        #         pass
+        #
+        #     stack.append(i)  # 这里存的是索引，而不是数值
+        # return ans
 
-            stack.append(i)  # 这里存的是索引，而不是数值
-        return ans
+        stack = []
+        res = [0] * len(T)
+        for i in range(len(T)):
+            while len(stack) > 0 and T[i] > T[stack[-1]]:
+                top_idx = stack.pop()
+                res[top_idx] = i - top_idx
+
+            stack.append(i)
+        return res
 if __name__ == '__main__':
     line = "[]"
 

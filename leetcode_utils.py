@@ -164,3 +164,6 @@ def stringToChar2dArray(input):
 
 def char2dArrayToString(input):
     return json.dumps(input)
+
+def stringToString(input):
+    return input[1:-1].decode('string_escape')
