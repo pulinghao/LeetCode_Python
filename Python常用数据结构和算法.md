@@ -29,6 +29,26 @@ import sys
 sys.maxint
 ```
 
+### 进制转换
+
+```python
+# 字符串转二进制整数
+
+x = int(a, 2)  # a是字符串，2为二进制
+y = int('13', 8)  # a是字符串，8为八进制
+z = int('0xa', 16) # 转十六进制
+
+```
+
+
+
+### bin() 返回一个整数 int 或者长整数 long int 的二进制表示
+
+```python
+x = '0b0011'
+bin(x)[2:]  # 返回0011
+```
+
 
 
 # 排序
@@ -145,6 +165,7 @@ queue.appendleft(item)
 使用前，务必确保列表是已经排序的
 
 ```python
+import bisect
 array = [2,4,7,9]
 array.sort()
 # 插入函数
@@ -164,7 +185,7 @@ bisect.bisect_right(array,4) #结果为3
 
 ### 字符串处理
 
-### 提取左右括号中的内容
+#### 提取左右括号中的内容
 
 ```python
 import re
