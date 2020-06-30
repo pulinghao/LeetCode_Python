@@ -35,6 +35,8 @@ class MyQueue(object):
         Removes the element from in front of queue and returns that element.
         :rtype: int
         """
+        if len(self.list2) == 0:
+            return None
         return self.list2.pop()
 
     def peek(self):
