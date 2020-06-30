@@ -36,10 +36,10 @@ class Solution(object):
         left = begin + 1
         right = end
         while left <= right:
-            while left < len(nums) and nums[left] < index:
+            while left < len(nums) and nums[left] <= index:
                 left += 1
 
-            while right > -1 and nums[right] > index:
+            while right > -1 and nums[right] >= index:
                 right -= 1
 
             if left < right:
@@ -60,9 +60,10 @@ class Solution(object):
 if __name__ == '__main__':
     line = "[]"
     root = leetcode_utils.stringToTreeNode(line)
-    nums = [7,6,5,4,3,2,1]
+    nums = [7,6,5,4,4,3,2,1]
     nums2 = [3, 7, 5, 4, 6, 2, 1]
     nums3 = [1,2,3,4,5,6,7]
-    out = Solution().quick(nums,0,len(nums) - 1)
+    nums4 = [2,1]
+    out = Solution().quick(nums4,0,len(nums4) - 1)
 
     print out 

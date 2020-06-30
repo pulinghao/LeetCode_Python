@@ -64,6 +64,18 @@ a.sort() #改变a的内容，默认升序
 a = sorted(a) # 不改变a的内容，默认升序
 ```
 
+## Max、Min的妙用
+
+Python中，``max()``和``min()``能够获取数组中的最大值和最小值。也能获取字符串数组中的最大值和最小值（字符串数组，按照ASCII码排序后）
+
+```python
+strs= ["flower","flow","flight"]
+s1 = min(strs) # 输出flight,因为i比o小，虽然flight比flow长，但还是小
+s2 = max(strs) # 输出flower，因为flower比flow更长，所以比flow大
+```
+
+
+
 ## lamda表达式
 
 ```
@@ -119,6 +131,22 @@ list.extend(anotherList)
 
 
 
+### 遍历
+
+```python
+# 传统
+for item in list
+
+for i in range(len(list))
+
+# 使用enumerate
+for i, element in enumerate(list):
+  print i # i是索引
+  print element # 对应位置的元素
+```
+
+
+
 ## Collections
 
 ```python
@@ -139,11 +167,11 @@ dict4 = defaultdict(list)
 
 作用是当key不存在时，返回的是工厂函数的默认值，比如list对应[ ]，str对应的是空字符串，set对应set( )，int对应0，
 
-
-
 ### 队列 deque
 
 ```python
+from collections import deque
+
 # 初始化
 queue = deque()
 
@@ -153,6 +181,8 @@ queue = deque(maxlen=10)
 # 获取第一个元素
 first = queue.popleft()
 
+# 获取最后一个元素
+end = queue.pop()
 # 在队尾添加一个元素
 queue.append(item)
 
