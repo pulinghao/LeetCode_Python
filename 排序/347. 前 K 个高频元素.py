@@ -15,7 +15,24 @@ class Solution(object):
     def __init__(self):
         pass
 
-    def func(self, root):
+    def simpleHeap(self,arr,i):
+        left = 2 * i + 1
+        right = 2 * i + 2
+
+        minIdx = i
+        if left < arrLen and arr[minIdx][1] < arr[left][1]:
+            minIdx = left
+
+        if right < arrLen and arr[minIdx][1] < arr[right][1]:
+            minIdx = right
+
+        if minIdx != i:
+            arr[minIdx],arr[i] = arr[i], arr[minIdx]
+            self.simpleHeap(arr,minIdx)
+
+    def buildHeap(self,arr,size):
+        for i in range(len(arr) / 2,-1,-1):
+            self.simpleHeap(arr,i)
         pass
 
     def topKFrequent(self, nums, k):
@@ -24,40 +41,34 @@ class Solution(object):
         :type k: int
         :rtype: List[int]
         """
-        # 1.开辟K个空间
-        array = []
-        brray = []
-        for i in range(nums[-1] + 1):
-            array.append(0)
-            brray.append([])
+        # 1.维护一个最大堆
+        map = {}
+        for num in nums:
+            if num in map:
+                map[num] += 1
+            else:
+                map[num] = 1
 
-        for i in nums:
-            array[i] += 1
+        # 2.构建最大堆
+        hashlist = []
+        for key,value in map.items():
+            hashlist.append([key,value])
 
-
-        for i in range(len(array)):
-            temp = brray[array[i]]
-            temp.append(i)
-            pass
-
+        global arrLen
+        arrLen = len(hashlist)
         res = []
-        for i in range(len(brray) - 1, -1, -1):
-            temp = brray[i]
-            if len(temp) > 0:
-                for num in temp:
-                    res.append(num)
-            if len(res) == k:
-                break
-
+        self.buildHeap(hashlist,arrLen)
+        for i in range(len(hashlist) - 1, len(hashlist) - k - 1, -1):
+            res.append(hashlist[0][0])
+            hashlist[0],hashlist[i] = hashlist[i],hashlist[0]
+            arrLen -= 1
+            self.simpleHeap(hashlist,0)
         return res
-
-
-
 
 if __name__ == '__main__':
     line = "[]"
     root = leetcode_utils.stringToTreeNode(line)
 
-    out = Solution().topKFrequent(nums = [1,1,1,2,2,3],k = 1)
+    out = Solution().topKFrequent(nums = [1,1,1,2,2,3], k = 2)
 
     print out 

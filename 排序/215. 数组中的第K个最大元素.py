@@ -64,9 +64,46 @@ class Solution:
         px = l - 1
         return px
 
+    def buildMapHeap(self, arr):
+        import math
+        for i in range(len(arr) // 2, -1, -1):
+            self.heapify(arr, i)
+
+    def heapify(self, arr, i):
+        # 左子节点
+        left = 2 * i + 1
+        right = 2 * i + 2
+        largest = i  # 最大数的索引，也即是根节点
+        if left < arrLen and arr[left] > arr[largest]:
+            largest = left
+        if right < arrLen and arr[right] > arr[largest]:
+            largest = right
+
+        if largest != i:  # 根节点不是最大
+            self.swap(arr, i, largest)
+            # 继续建堆，直到子树也满足 根节点大于叶子节点为止
+            # 在当前的树中，最大的根节点已经选出，因此要从置换后的叶子节点（也是另一颗树的根节点开始选）
+            self.heapify(arr, largest)
+
+    def swap(self, arr, i, j):
+        arr[i], arr[j] = arr[j], arr[i]
+
+    def heapFunction(self,arr,k):
+        global arrLen
+        arrLen = len(arr)
+        self.buildMapHeap(arr)
+        for i in range(len(arr) - 1, len(arr) - k, -1):
+            self.swap(arr,0,i)
+            arrLen -= 1
+            self.heapify(arr,0)
+
+        return arr[0]
+
+
+
 
 if __name__ == '__main__':
-    out = Solution().findKthLargest([3,2,3,1,2,4,5,5,6] ,k = 4)
+    out = Solution().heapFunction([3,2,1,5,6,4] ,k = 2)
     # nums=[5,2,4,1,3,6,0]
     # out = Solution().partition(nums,left = 0 , right = len(nums) - 1)
     print out 

@@ -131,7 +131,7 @@ list.extend(anotherList)
 
 
 
-### 遍历
+### 数组遍历
 
 ```python
 # 传统
@@ -143,6 +143,16 @@ for i in range(len(list))
 for i, element in enumerate(list):
   print i # i是索引
   print element # 对应位置的元素
+```
+
+### 字典遍历
+
+```python
+for key,value in dict.items()
+
+for key in dict.keys()
+
+for value in dick.values()
 ```
 
 
