@@ -16,7 +16,7 @@ class Solution(object):
         :rtype: bool
         """
 
-    
+
 if __name__ == '__main__':
     line = ""
     root = leetcode_utils.stringToTreeNode(line)
