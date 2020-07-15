@@ -92,6 +92,11 @@ array.sort(key = lambda x: (-x[0], x[1]))
 intervals = [[1,2],[3,4]] 
 intervals.sort(key=lambda intv: intv[0])
 intervals.sort(key=lambda x: x[0])
+
+# 按照长度进行排序
+myList = ['青海省','内蒙古自治区','西藏自治区','新疆维吾尔自治区','广西壮族自治区']  
+myList.sort(key = lambda i:len(i),reverse=True)  
+print(myList)
 ```
 
 

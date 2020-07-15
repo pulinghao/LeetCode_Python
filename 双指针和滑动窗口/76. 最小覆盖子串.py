@@ -71,5 +71,25 @@ class Solution(object):
         else:
             return ""
 
+    def minWindow2(self,s,t):
+        l = 0
+        r = 0
+        dict1 = {}  # 保存t中字符出现的次数
+        dict2 = {}
+
+        while r < len(s):
+
+
+
+
+
+
+
+
+
+
+
+        pass
+
 if __name__ == '__main__':
     print Solution().minWindow(s="aaaaaaaaaaaabbbbbcdd", t="abcdd")
