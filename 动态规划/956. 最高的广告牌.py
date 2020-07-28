@@ -9,8 +9,6 @@
 """
 
 import leetcode_utils
-import copy
-import functools
 
 
 class Solution(object):
@@ -45,45 +43,40 @@ class Solution(object):
 
         H = sum(rods)
         dp = [[-1 for _ in range(H + 1)] for _ in range(len(rods) + 1)]
-
         dp[0][0] = 0
-
-        for i in range(1, len(rods)):
+        for i in range(1, len(rods) + 1):
             h = rods[i - 1]
             for j in range(0, H - h + 1):
-                dp[i][j + rods[i - 1]] = max(dp[i][j + rods[i - 1]], dp[i - 1][j])
-                dp[i][abs(j - rods[i - 1])] = max(dp[i][abs(j - rods[i - 1])], dp[i - 1][j] + min(rods[i - 1], j))
+                if dp[i - 1][j] < 0:
+                    continue
+                    # 这里要特别注意！！！
+                    # 这里加个这，意思是说不取第i个杆子，仍然有个最大高度差
+                    # 取了j反而高度差变小了，那么就是说取 i - 1 个杆子和 i 个杆子比较下
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j])
 
-        """
-        robs = [1,2,3,4,5]
-        dp[0][0] = 0
-        
-        dp[1][0] = -1
-        dp[1][1] = -1
-        dp[1][2] = -1
-        dp[1][3] = -1
-        ...
-        
-        dp[2][0] = 
-        """
+                dp[i][j] = max(dp[i - 1][j], dp[i][j])
+                dp[i][j + h] = max(dp[i][j + h], dp[i - 1][j])
+                dp[i][abs(j - h)] = max(dp[i][abs(j - h)], dp[i - 1][j] + min(h, j))
         return dp[-1][0]
-        # s = sum(rods)
-        # dp = [-1] * (s + 1)
-        # dp[0] = 0
-        # for h in rods:
-        #     cur = dp[:]  # 不能直接cur=dp，这样相当于引用而不是复制
-        #     for i in range(s - h + 1):
-        #         if dp[i] < 0:  # 说明当前这个高度差的还没有
-        #             continue
-        #         dp[i + h] = max(dp[i + h], cur[i])
-        #         dp[abs(i - h)] = max(dp[abs(i - h)], cur[i] + min(i, h))
-        # return dp[0]
+
+    def tallestBillboard2(self, rods):
+        s = sum(rods)
+        dp = [-1] * (s + 1)
+        dp[0] = 0
+        for h in rods:
+            cur = dp[:]  # 不能直接cur=dp，这样相当于引用而不是复制
+            for i in range(s - h + 1):
+                if cur[i] < 0:  # 说明当前这个高度差的还没有
+                    continue
+                dp[i + h] = max(dp[i + h], cur[i])
+                dp[abs(i - h)] = max(dp[abs(i - h)], cur[i] + min(i, h))
+        return dp[0]
 
 
 if __name__ == '__main__':
     line = "[]"
     root = leetcode_utils.stringToTreeNode(line)
 
-    out = Solution().tallestBillboard([1, 2, 3, 4, 5])
+    out = Solution().tallestBillboard([1, 2, 3, 6])
 
     print out
