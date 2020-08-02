@@ -72,24 +72,55 @@ class Solution(object):
             return ""
 
     def minWindow2(self,s,t):
+        if len(t) > len(s):
+            return ""
         l = 0
         r = 0
         dict1 = {}  # 保存t中字符出现的次数
-        dict2 = {}
+        resLength = sys.maxint
+        baseleft = 0
+        baseright = 0
+        for c in t:
+            if c in dict1:
+                dict1[c] += 1
+            else:
+                dict1[c] = 1
 
         while r < len(s):
+            rightChar = s[r]
+            if rightChar in dict1:
+                dict1[rightChar] -= 1
+
+            allIn = True
+            for k,v in dict1.items():
+                if v > 0:
+                    allIn = False
+                    break
 
 
+            while allIn:
+                if resLength > r - l + 1:
+                    resLength = r - l + 1
+                    baseleft = l
+                    baseright = r + 1
 
+                # 移动左侧指针
+                leftChar = s[l]
+                if leftChar in dict1:
+                    dict1[leftChar] += 1
+                l += 1
 
+                for k,v in dict1.items():
+                    if v > 0:
+                        allIn = False
+                        break
 
+            r += 1
 
+        return s[baseleft:baseright]
 
-
-
-
-
-        pass
 
 if __name__ == '__main__':
-    print Solution().minWindow(s="aaaaaaaaaaaabbbbbcdd", t="abcdd")
+    print Solution().minWindow2(s="ADOBECODEBANC", t="ABC")
+
+    # print Solution().minWindow2(s="a", t="aa")
