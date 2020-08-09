@@ -44,6 +44,36 @@ class Solution(object):
         root.right = self.buildTree(right_preorder, right_inorder)
         return root
 
+    def buildTree2(self, preorder, inorder):
+        """
+        迭代的方法：栈
+        :param preorder:
+        :param inorder:
+        :return:
+        """
+        if not preorder:
+            return None
+
+        root = TreeNode(preorder[0])
+        stack = [root]
+        inorderIndex = 0
+        for i in range(1,len(preorder)):
+            pre = preorder[i]
+            node = stack[-1]
+            if node.val != inorder[inorderIndex]:
+                # 左子结点
+                node.left = TreeNode(pre)
+                stack.append(node.left)
+            else:
+                while stack and stack[-1].val == inorder[inorderIndex]:
+                    node = stack.pop()
+                    inorderIndex += 1
+                node.right = TreeNode(pre)
+                stack.append(node.right)
+
+        return root
+
+
 if __name__ == '__main__':
     line = "[3,9,20,15,7]"
     preorder = leetcode_utils.stringToIntegerList(line)

@@ -33,6 +33,7 @@ class Solution(object):
         # 如果遇到的节点为白色，则将其标记为灰色，然后将其右子节点、自身、左子节点依次入栈。
         # 如果遇到的节点为灰色，则将节点的值输出。
 
+    def inorderTraversal2(self, root):
         WHITE, GRAY = 0, 1
         res = []
         stack = [[WHITE,root]]
@@ -48,8 +49,18 @@ class Solution(object):
 
         return res
 
+    def inorderTraversal3(self, root):
+        # 递归方法
+        res = []
+        def recursive(root):
+            if not root:
+                return
+            recursive(root.left)
+            res.append(root.val)
+            recursive(root.right)
 
-
+        recursive(root)
+        return res
     pass
 
 if __name__ == '__main__':
@@ -57,6 +68,6 @@ if __name__ == '__main__':
     # line = "[2,1,3]"
     line = "[1,null,2,3]"
     root = leetcode_utils.stringToTreeNode(line)
-    ret = Solution().inorderTraversal(root)
+    ret = Solution().inorderTraversal3(root)
 
     print ret
