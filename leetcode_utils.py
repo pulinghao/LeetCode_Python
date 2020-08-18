@@ -167,3 +167,6 @@ def char2dArrayToString(input):
 
 def stringToString(input):
     return input[1:-1].decode('string_escape')
+
+def stringToInt2dArray(input):
+    return json.loads(input)
