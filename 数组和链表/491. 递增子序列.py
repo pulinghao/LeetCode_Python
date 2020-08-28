@@ -23,25 +23,36 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[List[int]]
         """
+        res = set()
+        for i in range(len(nums)):
+            path = []
+            self.__dfs(nums, path, i, res)
+
+        return res
+
+    def recursive(self, nums):
+        if len(nums) == 0:
+            return []
+
+        if len(nums) == 1:
+            return [nums[0]]
 
     def __dfs(self, nums, path, cur, res):
         # 1. 判断是否满足条件
         # 1）如果遍历数组到最后一个元素，就结束
         if cur == len(nums):
+            # res.append(path[:])
             return
 
-        for i in range(cur + 1,len(nums)):
+        path.append(nums[cur])
+        if len(path) > 1:
+            res.add(path)
+        for i in range(cur + 1, len(nums)):
             if nums[i] > nums[cur]:
-                path.append(nums[i])
-                self.__dfs(nums,path,i,res)
+                self.__dfs(nums, path, i, res)
                 path.pop(-1)
             pass
 
 
 if __name__ == '__main__':
-    line = "[]"
-    root = leetcode_utils.stringToTreeNode(line)
-
-    out = Solution().func(root)
-
-    print out
+    print Solution().findSubsequences(nums=[4, 6, 7, 7])
