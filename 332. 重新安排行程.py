@@ -6,8 +6,8 @@
  @File     :332. 重新安排行程.py
  @Description :
 """
-
-
+import heapq
+import collections
 class Solution(object):
     def __init__(self):
         self.res = []
@@ -17,23 +17,19 @@ class Solution(object):
         :type tickets: List[List[str]]
         :rtype: List[str]
         """
-        dic = dict()
-        res = ['JFK']
-        for pair in tickets:
-            key = pair[0]
-            value = pair[1]
-            if key in dic.keys():
-                array = dic[key]
-                array.append(value)
-                array.sort()
-            else:
-                dic[key] = [value]
+        def dfs(cur):
+            while vec[cur]:
+                tmp = heapq.heappop(vec[cur])
+                dfs(tmp)
+            stack.append(cur)
 
-        N = len(tickets)
-        self.res = ['JFK']
-        self.dfs(res,'JFK',0,N, dic)
-        return self.ans[0]
-        pass
+        vec = collections.defaultdict(list)
+        for depart,arrive in tickets:
+            vec[depart].append(arrive)
+
+        stack = list()
+        dfs('JFK')
+        return stack[::-1]
 
     def dfs(self,path,cur,idx,N,dic):
         if idx == N:
@@ -89,6 +85,8 @@ class Solution(object):
         pass
 
 if __name__ == '__main__':
-    tickets1 = [["JFK","KUL"],["JFK","NRT"],["NRT","JFK"]]
+    # tickets1 = [["JFK","KUL"],["JFK","NRT"],["NRT","JFK"]]
+    tickets1 = [["JFK","AAA"],["JFK","BBB"],["BBB","JFK"]]
+
     tickets =  [["MUC", "LHR"], ["JFK", "MUC"], ["SFO", "SJC"], ["LHR", "SFO"]]
     print Solution().findItinerary(tickets1)

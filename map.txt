@@ -1,0 +1,100 @@
+2020-08-28 17:30:32.199627+0800 IphoneCom[60858:15212841] Log:FootNaviPG.carbonShow pubTrav=foot
+2020-08-28 17:30:32.203690+0800 IphoneCom[60858:15212841] Log:FootNaviPG.carbonShow cityID=131
+2020-08-28 17:30:32.204132+0800 IphoneCom[60858:15213052] BMapEngine: Log:FootNaviPG.carbonShow 
+2020-08-28 17:30:32.209703+0800 IphoneCom[60858:15213052] BMapEngine: Log:voiceRobot.dismiss 
+2020-08-28 17:30:32.216127+0800 IphoneCom[60858:15212841] Log:FootNaviPG.routePlan pubTrav=foot
+2020-08-28 17:30:32.216177+0800 IphoneCom[60858:15212841] Log:FootNaviPG.routePlan cityID=131
+2020-08-28 17:30:32.216197+0800 IphoneCom[60858:15212841] Log:FootNaviPG.routePlan hadGuidePoi=0
+2020-08-28 17:30:32.217458+0800 IphoneCom[60858:15212841] Log:FootNaviPG.show pubTrav=foot
+2020-08-28 17:30:32.217487+0800 IphoneCom[60858:15212841] Log:FootNaviPG.show cityID=131
+2020-08-28 17:30:32.217498+0800 IphoneCom[60858:15212841] Log:FootNaviPG.show three_idx={"idx2":"c9197999-6ada-4550-8305-0be9a26b782c","idx1":"8D95E8C7-FAF5-47DF-8329-AEF1FBD98D23","idx3":"54356D78-5F18-4C70-9A94-D5AC472C627A"}
+2020-08-28 17:30:32.219212+0800 IphoneCom[60858:15213052] BMapEngine: Log:FootNaviPG.routePlan 
+2020-08-28 17:30:32.219430+0800 IphoneCom[60858:15213052] BMapEngine: Log:FootNaviPG.show 
+2020-08-28 17:30:32.221045+0800 IphoneCom[60858:15213302] BMapEngine: Log:traffic_ios_1 
+2020-08-28 17:30:32.221172+0800 IphoneCom[60858:15213302] BMapEngine: Log:traffic_ios_success 
+2020-08-28 17:30:32.221351+0800 IphoneCom[60858:15212841] sw: notifyVoiceRobotClose: <BMRouteSearchHeaderCard: 0x15ee3e800; baseClass = UIControl; frame = (0 0; 375 163); layer = <CALayer: 0x280629ca0>>
+2020-08-28 17:30:32.221392+0800 IphoneCom[60858:15212841] sw:removeObserver robot notify: <BMRouteSearchHeaderCard: 0x15ee3e800; baseClass = UIControl; frame = (0 0; 375 163); layer = <CALayer: 0x280629ca0>>
+2020-08-28 17:30:32.221697+0800 IphoneCom[60858:15213052] BMapEngine: Log:traffic_ios_success 
+2020-08-28 17:30:32.223900+0800 IphoneCom[60858:15212841] Log:FootRouteResPG.footNaviClick cityid=131
+2020-08-28 17:30:32.223925+0800 IphoneCom[60858:15212841] Log:FootRouteResPG.footNaviClick cityID=131
+2020-08-28 17:30:32.223936+0800 IphoneCom[60858:15212841] Log:FootRouteResPG.footNaviClick three_idx={"idx2":"c9197999-6ada-4550-8305-0be9a26b782c","idx1":"8D95E8C7-FAF5-47DF-8329-AEF1FBD98D23","idx3":"54356D78-5F18-4C70-9A94-D5AC472C627A"}
+2020-08-28 17:30:32.223949+0800 IphoneCom[60858:15212841] Log:FootRouteResPG.footNaviClick cityname=北京市
+2020-08-28 17:30:32.223960+0800 IphoneCom[60858:15212841] Log:FootRouteResPG.footNaviClick pubTrav=foot
+2020-08-28 17:30:32.223968+0800 IphoneCom[60858:15212841] Log:FootRouteResPG.footNaviClick type=navi
+2020-08-28 17:30:32.223982+0800 IphoneCom[60858:15212841] Log:FootRouteResPG.footNaviClick index=0
+2020-08-28 17:30:32.224028+0800 IphoneCom[60858:15212841] Log:FootNaviPG.timezone pubTrav=foot
+2020-08-28 17:30:32.224050+0800 IphoneCom[60858:15212841] Log:FootNaviPG.timezone time=17
+2020-08-28 17:30:32.224067+0800 IphoneCom[60858:15212841] Log:FootNaviPG.timezone cityID=131
+2020-08-28 17:30:32.224081+0800 IphoneCom[60858:15212841] Log:FootRouteResPG.stayTime pubTrav=foot
+2020-08-28 17:30:32.224094+0800 IphoneCom[60858:15212841] Log:FootRouteResPG.stayTime duration=0
+2020-08-28 17:30:32.224106+0800 IphoneCom[60858:15212841] Log:FootRouteResPG.stayTime cityID=131
+2020-08-28 17:30:32.224121+0800 IphoneCom[60858:15212841] Log:FootRouteResPG.normalNaviEntry pubTrav=foot
+2020-08-28 17:30:32.224139+0800 IphoneCom[60858:15212841] Log:FootRouteResPG.normalNaviEntry cityID=131
+2020-08-28 17:30:32.224147+0800 IphoneCom[60858:15212841] Log:FootRouteResPG.normalNaviEntry three_idx={"idx2":"c9197999-6ada-4550-8305-0be9a26b782c","idx1":"8D95E8C7-FAF5-47DF-8329-AEF1FBD98D23","idx3":"54356D78-5F18-4C70-9A94-D5AC472C627A"}
+2020-08-28 17:30:32.224352+0800 IphoneCom[60858:15213297] BMapEngine: Log:FootRouteResPG.footNaviClick 
+2020-08-28 17:30:32.224622+0800 IphoneCom[60858:15213297] BMapEngine: Log:FootNaviPG.timezone 
+2020-08-28 17:30:32.224971+0800 IphoneCom[60858:15213297] BMapEngine: Log:FootRouteResPG.stayTime 
+2020-08-28 17:30:32.225170+0800 IphoneCom[60858:15213297] BMapEngine: Log:FootRouteResPG.normalNaviEntry 
+2020-08-28 17:30:32.234758+0800 IphoneCom[60858:15212841] Log:RoutePG.exitMap cx=12951170
+2020-08-28 17:30:32.234787+0800 IphoneCom[60858:15212841] Log:RoutePG.exitMap travelmap=0
+2020-08-28 17:30:32.234801+0800 IphoneCom[60858:15212841] Log:RoutePG.exitMap sat=0
+2020-08-28 17:30:32.234813+0800 IphoneCom[60858:15212841] Log:RoutePG.exitMap cy=4843391
+2020-08-28 17:30:32.234875+0800 IphoneCom[60858:15212841] Log:RoutePG.exitMap lv=19
+2020-08-28 17:30:32.235044+0800 IphoneCom[60858:15212841] gesture log:
+2020-08-28 17:30:32.235082+0800 IphoneCom[60858:15213064] BMapEngine: Log:RoutePG.exitMap 
+2020-08-28 17:30:32.248712+0800 IphoneCom[60858:15212841] Log:FootNaviPG.footTypeShow pubTrav=foot
+2020-08-28 17:30:32.252164+0800 IphoneCom[60858:15212841] Log:FootNaviPG.footTypeShow cityID=131
+2020-08-28 17:30:32.252301+0800 IphoneCom[60858:15213162] BMapEngine: Log:FootNaviPG.footTypeShow 
+2020-08-28 17:30:32.264506+0800 IphoneCom[60858:15213341] ========= main thread going
+2020-08-28 17:30:32.264589+0800 IphoneCom[60858:15213158] ========= sound thread going
+2020-08-28 17:30:32.265587+0800 IphoneCom[60858:15213158] <setupAvAudioSessionCategoryAndOptions begin>
+2020-08-28 17:30:32.265671+0800 IphoneCom[60858:15213064] AudioRoute: SpeakerAndMicrophone
+2020-08-28 17:30:32.267235+0800 IphoneCom[60858:15213158] outputs:(
+    "<AVAudioSessionPortDescription: 0x2803ff270, type = Speaker; name = \U626c\U58f0\U5668; UID = Speaker; selectedDataSource = (null)>"
+)
+2020-08-28 17:30:32.267484+0800 IphoneCom[60858:15213064] outputs:(
+    "<AVAudioSessionPortDescription: 0x28039c9b0, type = Speaker; name = \U626c\U58f0\U5668; UID = Speaker; selectedDataSource = (null)>"
+)
+2020-08-28 17:30:32.267986+0800 IphoneCom[60858:15212841] outputs:(
+    "<AVAudioSessionPortDescription: 0x2842d9f10, type = Speaker; name = \U626c\U58f0\U5668; UID = Speaker; selectedDataSource = (null)>"
+)
+2020-08-28 17:30:32.313984+0800 IphoneCom[60858:15212841] Log:FootRouteResPG.footTypeShow pubTrav=foot
+2020-08-28 17:30:32.314041+0800 IphoneCom[60858:15212841] Log:FootRouteResPG.footTypeShow cityID=131
+2020-08-28 17:30:32.314136+0800 IphoneCom[60858:15213296] BMapEngine: Log:FootRouteResPG.footTypeShow 
+2020-08-28 17:30:32.314191+0800 IphoneCom[60858:15212841] {
+    data =     {
+        "bus_factor" = "280.01";
+        "cycle_factor" = "368.26";
+        formula = "bus_dis*bus_factor + walk_dis*walk_factor + subway_dis*subway_factor + cycle_dis*cycle_factor";
+        "subway_factor" = "336.51";
+        "walk_factor" = "437.44";
+    };
+    errmsg = success;
+    errno = 0;
+}
+2020-08-28 17:30:32.618307+0800 IphoneCom[60858:15213158] <<BNAudioSessionManager synchronize success>>.
+2020-08-28 17:30:32.618343+0800 IphoneCom[60858:15213158] <setupAvAudioSessionCategoryAndOptions end>
+2020-08-28 17:30:32.618514+0800 IphoneCom[60858:15213158] system.phoneModel=iPhone12,3
+2020-08-28 17:30:32.660643+0800 IphoneCom[60858:15213117] --------resetPlyerCache
+2020-08-28 17:30:32.723599+0800 IphoneCom[60858:15212841] self.synthesizeEntries count = 1
+2020-08-28 17:30:32.723632+0800 IphoneCom[60858:15212841] [finishSynthesis]self.synthesizeEntries removeObjectAtIndex count = 0
+2020-08-28 17:30:32.743946+0800 IphoneCom[60858:15213233] isReseted: 0
+2020-08-28 17:30:39.340222+0800 IphoneCom[60858:15212841] plh log 坐标:116.294193,40.048485
+2020-08-28 17:30:39.358535+0800 IphoneCom[60858:15213117] --------resetPlyerCache
+2020-08-28 17:30:39.368978+0800 IphoneCom[60858:15212841] --udc--- get res: 1 data : {"home":{}}
+2020-08-28 17:30:39.369048+0800 IphoneCom[60858:15212841] --udc--- get res: 1 data : {"company":{}}
+2020-08-28 17:30:39.400086+0800 IphoneCom[60858:15213233] isReseted: 0
+2020-08-28 17:30:39.811339+0800 IphoneCom[60858:15213158] *******dealloc textTask: 步行导航开始请沿当前道路向西出发 playtype: 0
+2020-08-28 17:30:40.659791+0800 IphoneCom[60858:15212841] plh log 坐标:116.294188,40.048471
+2020-08-28 17:30:42.328777+0800 IphoneCom[60858:15212841] BMapEngine: stopRender MapView = 0x159021e30
+
+2020-08-28 17:30:46.331164+0800 IphoneCom[60858:15212841] BMapEngine: startRender MapView = 0x159021e30
+
+2020-08-28 17:30:46.671906+0800 IphoneCom[60858:15212841] plh log 坐标:116.294248,40.048458
+2020-08-28 17:30:46.985013+0800 IphoneCom[60858:15212841] Log:FootNaviPG.normalExit pubTrav=foot
+2020-08-28 17:30:46.985318+0800 IphoneCom[60858:15212841] Log:FootNaviPG.normalExit cityID=131
+2020-08-28 17:30:46.985390+0800 IphoneCom[60858:15212841] Log:FootNaviPG.normalExit three_idx={"idx2":"c9197999-6ada-4550-8305-0be9a26b782c","idx1":"8D95E8C7-FAF5-47DF-8329-AEF1FBD98D23","idx3":"54356D78-5F18-4C70-9A94-D5AC472C627A"}
+2020-08-28 17:30:46.985608+0800 IphoneCom[60858:15212841] Log:FootNaviPG.exitNavi pubTrav=foot
+2020-08-28 17:30:46.985728+0800 IphoneCom[60858:15212841] Log:FootNaviPG.exitNavi cityID=131
+2020-08-28 17:30:46.986322+0800 IphoneCom[60858:15213296] BMapEngine: Log:FootNaviPG.normalExit 
+2020-08-28 17:30:46.987133+0800 IphoneCom[60858:15213296] BMapEngine: Log:FootNaviPG.exitNavi 
