@@ -21,8 +21,16 @@ class Solution(object):
             res = max(dp[i],res)
         return res
 
+    def maxSubArray2(self,nums):
+        # nums[i]表示以第i项结尾的最大自序和
+        for i in range(1, len(nums)):
+            nums[i] = nums[i] + max(nums[i - 1], 0)
+
+        return max(nums)
+
 
 
 
 if __name__ == '__main__':
-    print Solution().maxSubArray(nums= [31,-41,59,26,-53,58,97,-93,-23,84])
+    nums = [-2, 1, -3]
+    print Solution().maxSubArray2(nums)

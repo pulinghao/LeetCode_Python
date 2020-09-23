@@ -18,16 +18,17 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         track = []
+        res = []
 
-        def backtrack(nums, start, track):
-            self.res.append(list(track))
+        def backtrack(nums, start, track, res):
+            res.append(list(track))
             for i in range(start, len(nums)):
                 track.append(nums[i])
-                backtrack(nums, i + 1, track)
+                backtrack(nums, i + 1, track, res)
                 track.pop(-1)
 
-        backtrack(nums, 0, track)
-        return self.res
+        backtrack(nums, 0, track, res)
+        return res
 
 
 if __name__ == '__main__':
