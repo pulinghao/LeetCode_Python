@@ -9,6 +9,7 @@
 """
 
 import leetcode_utils
+import collections
 
 
 class Solution(object):
@@ -24,10 +25,36 @@ class Solution(object):
         :rtype: bool
         """
 
+        def squre(n):
+            res = 0
+            while n / 10:
+                r = n % 10
+                res += r ** 2
+                n = n / 10
+
+            res += (n % 10) ** 2
+            return res
+
+        ans = False
+        dict = collections.defaultdict(int)
+        while True:
+            r = squre(n)
+            if r == 1:
+                ans = True
+                break
+            else:
+                if r in dict.keys():
+                    ans = False
+                    break
+                else:
+                    dict[r] = 1
+            n = r
+
+        return ans
+
+
+
 if __name__ == '__main__':
-    line = "[]"
-    root = leetcode_utils.stringToTreeNode(line)
+    out = Solution().isHappy(109)
 
-    out = Solution().func(root)
-
-    print out 
+    print out

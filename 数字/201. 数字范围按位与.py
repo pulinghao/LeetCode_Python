@@ -22,6 +22,16 @@ class Solution(object):
             res += 1
         return m << res
 
+    def rangeBitwiseAnd2(self, m, n):
+        mask = 1 << 30 # 最高位开始
+        anw = 0
+        while mask > 0 and (m & mask) == (n & mask):
+            # 寻找相同前缀
+            anw |= m & mask
+            mask >>= 1
+
+        return anw
+
 if __name__ == '__main__':
     m = 0
     n = 2147483647

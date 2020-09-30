@@ -8,6 +8,11 @@
 """
 import leetcode_utils
 
+class TreeNode(object):
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
 
 class Solution(object):
     def inorderTraversal(self, root):
@@ -62,6 +67,19 @@ class Solution(object):
         recursive(root)
         return res
     pass
+
+    def inorderTraversal4(self, root):
+        # 迭代方法
+        res = []
+        stack = [root]
+        while stack:
+            node = stack.pop()
+            if isinstance(node, TreeNode):
+                stack.extend([node.right, node.val,node.left])
+            elif isinstance(node, int):
+                res.append(node)
+        return res
+
 
 if __name__ == '__main__':
     # line = "[2,1,3]"

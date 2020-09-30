@@ -33,9 +33,33 @@ class Solution(object):
         node.right = left
         return node
 
+    def invertTree2(self,root):
+        """
+        迭代方法
+        :param root:
+        :return:
+        """
+        if not root:
+            return None
+
+        queue = [root]
+        while len(queue):
+            cur = queue.pop(0)
+
+            temp = cur.left
+            cur.left = cur.right
+            cur.right = temp
+
+            if cur.left:
+                queue.append(cur.left)
+            if cur.right:
+                queue.append(cur.right)
+
+        return root
+
 if __name__ == '__main__':
     line = "[4,2,7,1,3,6,9]"
     root = leetcode_utils.stringToTreeNode(line)
-    ret = Solution().invertTree(root)
+    ret = Solution().invertTree2(root)
     out = leetcode_utils.treeNodeToString(ret)
     print out
