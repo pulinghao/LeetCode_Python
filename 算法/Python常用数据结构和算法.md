@@ -2,11 +2,17 @@
 
 ## 字符
 
-### 取ascii码
+### 字符取ascii码
 
 ```python
 # 小写
 ascii = ord(char)
+```
+
+### ascii码转字符
+
+```python
+char = chr(ascii)
 ```
 
 ### 判断某个字符是否是数字
