@@ -9,6 +9,7 @@
 
 import leetcode_utils
 
+
 class Solution(object):
     def preorderTraversal(self, root):
         """
@@ -57,6 +58,19 @@ class Solution(object):
 
         return res
 
+    def recursive(self, root):
+        def preorder(node, res):
+            if node:
+                res.append(node.val)
+                if node.left:
+                    preorder(node.left, res)
+
+                if node.right:
+                    preorder(node.right, res)
+
+        res = []
+        preorder(root, res)
+        return res
 
 
 if __name__ == '__main__':
@@ -64,6 +78,6 @@ if __name__ == '__main__':
     # line = "[2,1,3]"
     line = "[1,null,2,3]"
     root = leetcode_utils.stringToTreeNode(line)
-    ret = Solution().preorderTraversal(root)
+    ret = Solution().recursive(root)
     print leetcode_utils.integerListToString(ret)
     pass
