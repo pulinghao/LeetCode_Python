@@ -212,6 +212,16 @@ queue.append(item)
 queue.appendleft(item)
 ```
 
+### 计数器Counter
+
+统计字符串中，每个字母的出现次数
+
+```python
+obj = collections.Counter("aabccd")
+print obj
+# Counter({'a':2,'b':1,"c":2,"d":1})
+```
+
 
 
 ## 最大（小）堆-Heapq
