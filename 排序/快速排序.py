@@ -22,9 +22,6 @@ class Solution(object):
         if left < right:
             index = nums[left]
 
-            self.quickSort(nums,left,)
-
-
         pass
 
 

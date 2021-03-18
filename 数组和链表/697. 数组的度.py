@@ -6,8 +6,41 @@
  @File     :697. 数组的度.py 
  @Description :
 """
-
+import collections
 class Solution(object):
+    def findShortestSubArray2(self, nums):
+        left = collections.defaultdict(int)  # 存第一个出现的索引
+        right = collections.defaultdict(int) # 存最后一个出现的索引
+        cnt = collections.defaultdict(int)
+        for idx , num in enumerate(nums):
+            if num in left.keys():
+                right[num] = idx
+                cnt[num] += 1
+            else:
+                left[num] = idx
+                right[num] = idx
+                cnt[num] = 1
+
+        minLength = len(nums)
+        maxCnt = 0
+
+        for idx , num in enumerate(nums):
+            if cnt[num] > maxCnt:
+                maxCnt = cnt[num]
+                l = left[num]
+                r = right[num]
+                minLength = r - l + 1
+            elif cnt[num] == maxCnt:
+                l = left[num]
+                r = right[num]
+                if r - l + 1 <= minLength:
+                    minLength = r - l + 1
+                    maxCnt = cnt[num]
+
+        return minLength
+
+
+
     def findShortestSubArray(self, nums):
         """
         :type nums: List[int]
@@ -41,6 +74,8 @@ class Solution(object):
         return max_count
     pass
 
+
+
 if __name__ == '__main__':
-    nums = [1, 2, 2, 3, 1]
-    print Solution().findShortestSubArray(nums)
+    nums = [1,2]
+    print Solution().findShortestSubArray2(nums)

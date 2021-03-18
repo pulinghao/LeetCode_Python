@@ -189,7 +189,7 @@ dict4 = defaultdict(list)
 
 作用是当key不存在时，返回的是工厂函数的默认值，比如list对应[ ]，str对应的是空字符串，set对应set( )，int对应0，
 
-### 队列 deque
+### 队列` deque`
 
 ```python
 from collections import deque
@@ -212,9 +212,12 @@ queue.append(item)
 queue.appendleft(item)
 ```
 
-### 计数器Counter
+### 计数器`Counter`
 
-统计字符串中，每个字母的出现次数
+这个数据结构可以统计每个字母出现的次数，比哈希表`dict`更好用一些
+
+- 统计字符串中，每个字母的出现次数
+
 
 ```python
 obj = collections.Counter("aabccd")
@@ -222,9 +225,22 @@ print obj
 # Counter({'a':2,'b':1,"c":2,"d":1})
 ```
 
+- 删除某个元素，键值对一起删除
 
+```python
+del obj['a']
+# Counter({'b':1,"c":2,"d":1})
+```
 
-## 最大（小）堆-Heapq
+- 比较两个counter是否相同
+
+```python
+if counter1 == counter2:
+```
+
+## 最大（小）堆-`Heapq`
+
+Heapq默认提供的最小堆，也就是从小到大排列，堆顶元素为最小元素
 
 ```python
 import heapq
@@ -259,9 +275,7 @@ print([heapq.heappop(nums) for _ in range(len(nums))])  # 堆排序结果
 # out: [1, 2, 3, 5, 23, 54, 132]
 ```
 
-
-
-# 二分查找框架 [bisect](https://www.cnblogs.com/zhaoyingjie/p/9468935.html)
+## 二分查找框架 [bisect](https://www.cnblogs.com/zhaoyingjie/p/9468935.html)
 
 使用前，务必确保列表是已经排序的
 
@@ -280,6 +294,30 @@ bisect.bisect_left(array,4) # 结果为2
 
 #bisect_right 有重复数的情况下，插入到最右边的那个位置。返回将会插入的位置
 bisect.bisect_right(array,4) #结果为3
+```
+
+## 排序数组`SortedList`
+
+在`SortedList`中的元素是自动排好序的（默认从小到大）
+
+```python
+from sortedcontainers import SortedList
+
+# 1. 初始化
+s = SortedList()
+
+# 2. 添加元素
+s.add(x)
+# 3. 删除元素
+s.remove(x)
+
+s = SortedList()
+s.add(1)
+s.add(4)
+s.add(5)
+s.add(2)
+s.remove(1)
+# SortedList([2, 4, 5])
 ```
 
 # 正则表达式
