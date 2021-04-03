@@ -14,6 +14,39 @@ class TreeNode(object):
         self.left = None
         self.right = None
 
+# 使用单调栈
+class BSTIteratorUseStack(object):
+    def __init__(self, root):
+        """
+        :type root: TreeNode
+        """
+        self.stack = []
+        while root:
+            self.stack.append(root)
+            root = root.left
+
+
+
+    def next(self):
+        """
+        @return the next smallest number
+        :rtype: int
+        """
+        cur = self.stack.pop()
+        node = cur.right
+        while node:
+            self.stack.append(node)
+            node = node.left
+        return cur.val
+
+
+    def hasNext(self):
+        """
+        @return whether we have a next smallest number
+        :rtype: bool
+        """
+        return len(self.stack) > 0
+
 class BSTIterator(object):
 
     def __init__(self, root):

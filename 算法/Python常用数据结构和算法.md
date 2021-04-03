@@ -148,7 +148,30 @@ reverselist = list[::-1]
 list.extend(anotherList)
 ```
 
+### 二维数组的初始化
 
+一维数组的声明方式：
+
+```python
+dp = [0] * N
+```
+
+但是二维数组不能用以下的方式。这会导致 dp 中的每行的列表是同一个 id，所以对其中一行的操作都会表现为每一行的操作，如下所示。
+
+```python
+dp = [[0] * N ] * M
+```
+
+<img src="Python常用数据结构和算法.assets/1617385088-LcKFPj-image.png" alt="image.png" style="zoom:50%;" />
+
+**正确声明二维数组（M * N）的方式**
+
+```
+dp = [[0] * N for _ in range(M)]
+dp = [[0] * 列数 for _ in range(行数)]
+```
+
+<img src="Python常用数据结构和算法.assets/1617385103-usBlwK-image.png" alt="image.png" style="zoom:50%;" />
 
 ### 数组遍历
 
