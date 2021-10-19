@@ -92,9 +92,29 @@ s2 = max(strs) # 输出flower，因为flower比flow更长，所以比flow大
 
 ## lamda表达式
 
+```python
+list.sort( key=None, reverse=False)
 ```
+
+### lamda表达式与sort混用
+
+lamda表达式一般作为key，传给list进行排序
+
+- 第一个键降序，第二个键升序排列
+
+```python
 # 第一个键降序，当第一个键相等时，第二个键升序
 array.sort(key = lambda x: (-x[0], x[1]))
+```
+
+- 按照两个（数字）字符串组合后，排列
+
+```python
+nums = [3,30,34,5,9]
+num_str = map(str, nums)
+compare = lambda x, y: 1 if x + y < y + x else -1
+num_str.sort(compare)
+# 输出 ['9', '5', '34', '3', '30']
 ```
 
 

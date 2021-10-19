@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B60E128326EF5E7B00A5A798 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60E128226EF5E7B00A5A798 /* main.cpp */; };
+		B660526126B29F0A004B1C28 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B660526026B29F0A004B1C28 /* main.cpp */; };
+		B696676526E78135005F5F68 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B696676426E78135005F5F68 /* main.cpp */; };
+		B6C1F3752669BB560090FE03 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6C1F3742669BB560090FE03 /* main.cpp */; };
+		B6C1F3812669BBF20090FE03 /* mytest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6C1F37F2669BBF20090FE03 /* mytest.cpp */; };
+		B6E6D2E626D3B1B600887771 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E6D2E526D3B1B600887771 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B60E127E26EF5E7B00A5A798 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B660525C26B29F09004B1C28 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B696676026E78135005F5F68 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B6C1F36F2669BB560090FE03 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B6E6D2E126D3B1B600887771 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B60E128026EF5E7B00A5A798 /* 447. 回旋镖的数量 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "447. 回旋镖的数量"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60E128226EF5E7B00A5A798 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B660525E26B29F09004B1C28 /* 1104. 二叉树寻路 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1104. 二叉树寻路"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B660526026B29F0A004B1C28 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B696676226E78135005F5F68 /* 1221. 分割平衡字符串 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1221. 分割平衡字符串"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B696676426E78135005F5F68 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B6C1F3712669BB560090FE03 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C1F3742669BB560090FE03 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B6C1F37F2669BBF20090FE03 /* mytest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mytest.cpp; sourceTree = "<group>"; };
+		B6C1F3802669BBF20090FE03 /* mytest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = mytest.hpp; sourceTree = "<group>"; };
+		B6C1F3832669BC350090FE03 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		B6E6D2E326D3B1B600887771 /* 1646. 获取生成数组中的最大值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1646. 获取生成数组中的最大值"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E6D2E526D3B1B600887771 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B60E127D26EF5E7B00A5A798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B660525B26B29F09004B1C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B696675F26E78135005F5F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C1F36E2669BB560090FE03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E6D2E026D3B1B600887771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B60E128126EF5E7B00A5A798 /* 447. 回旋镖的数量 */ = {
+			isa = PBXGroup;
+			children = (
+				B60E128226EF5E7B00A5A798 /* main.cpp */,
+			);
+			path = "447. 回旋镖的数量";
+			sourceTree = "<group>";
+		};
+		B660525F26B29F0A004B1C28 /* 1104. 二叉树寻路 */ = {
+			isa = PBXGroup;
+			children = (
+				B660526026B29F0A004B1C28 /* main.cpp */,
+			);
+			path = "1104. 二叉树寻路";
+			sourceTree = "<group>";
+		};
+		B696676326E78135005F5F68 /* 1221. 分割平衡字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				B696676426E78135005F5F68 /* main.cpp */,
+			);
+			path = "1221. 分割平衡字符串";
+			sourceTree = "<group>";
+		};
+		B6C1F3682669BB560090FE03 = {
+			isa = PBXGroup;
+			children = (
+				B6C1F3732669BB560090FE03 /* LeetCode */,
+				B660525F26B29F0A004B1C28 /* 1104. 二叉树寻路 */,
+				B6E6D2E426D3B1B600887771 /* 1646. 获取生成数组中的最大值 */,
+				B696676326E78135005F5F68 /* 1221. 分割平衡字符串 */,
+				B60E128126EF5E7B00A5A798 /* 447. 回旋镖的数量 */,
+				B6C1F3722669BB560090FE03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6C1F3722669BB560090FE03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6C1F3712669BB560090FE03 /* LeetCode */,
+				B660525E26B29F09004B1C28 /* 1104. 二叉树寻路 */,
+				B6E6D2E326D3B1B600887771 /* 1646. 获取生成数组中的最大值 */,
+				B696676226E78135005F5F68 /* 1221. 分割平衡字符串 */,
+				B60E128026EF5E7B00A5A798 /* 447. 回旋镖的数量 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6C1F3732669BB560090FE03 /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				B6C1F3742669BB560090FE03 /* main.cpp */,
+				B6C1F37F2669BBF20090FE03 /* mytest.cpp */,
+				B6C1F3802669BBF20090FE03 /* mytest.hpp */,
+				B6C1F3832669BC350090FE03 /* common.h */,
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		B6E6D2E426D3B1B600887771 /* 1646. 获取生成数组中的最大值 */ = {
+			isa = PBXGroup;
+			children = (
+				B6E6D2E526D3B1B600887771 /* main.cpp */,
+			);
+			path = "1646. 获取生成数组中的最大值";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B60E127F26EF5E7B00A5A798 /* 447. 回旋镖的数量 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60E128626EF5E7B00A5A798 /* Build configuration list for PBXNativeTarget "447. 回旋镖的数量" */;
+			buildPhases = (
+				B60E127C26EF5E7B00A5A798 /* Sources */,
+				B60E127D26EF5E7B00A5A798 /* Frameworks */,
+				B60E127E26EF5E7B00A5A798 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "447. 回旋镖的数量";
+			productName = "447. 回旋镖的数量";
+			productReference = B60E128026EF5E7B00A5A798 /* 447. 回旋镖的数量 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B660525D26B29F09004B1C28 /* 1104. 二叉树寻路 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B660526226B29F0A004B1C28 /* Build configuration list for PBXNativeTarget "1104. 二叉树寻路" */;
+			buildPhases = (
+				B660525A26B29F09004B1C28 /* Sources */,
+				B660525B26B29F09004B1C28 /* Frameworks */,
+				B660525C26B29F09004B1C28 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1104. 二叉树寻路";
+			productName = "1104. 二叉树寻路";
+			productReference = B660525E26B29F09004B1C28 /* 1104. 二叉树寻路 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B696676126E78135005F5F68 /* 1221. 分割平衡字符串 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B696676826E78135005F5F68 /* Build configuration list for PBXNativeTarget "1221. 分割平衡字符串" */;
+			buildPhases = (
+				B696675E26E78135005F5F68 /* Sources */,
+				B696675F26E78135005F5F68 /* Frameworks */,
+				B696676026E78135005F5F68 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1221. 分割平衡字符串";
+			productName = "1221. 分割平衡字符串";
+			productReference = B696676226E78135005F5F68 /* 1221. 分割平衡字符串 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B6C1F3702669BB560090FE03 /* LeetCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C1F3782669BB560090FE03 /* Build configuration list for PBXNativeTarget "LeetCode" */;
+			buildPhases = (
+				B6C1F36D2669BB560090FE03 /* Sources */,
+				B6C1F36E2669BB560090FE03 /* Frameworks */,
+				B6C1F36F2669BB560090FE03 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeetCode;
+			productName = LeetCode;
+			productReference = B6C1F3712669BB560090FE03 /* LeetCode */;
+			productType = "com.apple.product-type.tool";
+		};
+		B6E6D2E226D3B1B600887771 /* 1646. 获取生成数组中的最大值 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E6D2E926D3B1B600887771 /* Build configuration list for PBXNativeTarget "1646. 获取生成数组中的最大值" */;
+			buildPhases = (
+				B6E6D2DF26D3B1B600887771 /* Sources */,
+				B6E6D2E026D3B1B600887771 /* Frameworks */,
+				B6E6D2E126D3B1B600887771 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1646. 获取生成数组中的最大值";
+			productName = "1646. 获取生成数组中的最大值";
+			productReference = B6E6D2E326D3B1B600887771 /* 1646. 获取生成数组中的最大值 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6C1F3692669BB560090FE03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					B60E127F26EF5E7B00A5A798 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B660525D26B29F09004B1C28 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B696676126E78135005F5F68 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B6C1F3702669BB560090FE03 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					B6E6D2E226D3B1B600887771 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = B6C1F36C2669BB560090FE03 /* Build configuration list for PBXProject "LeetCode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6C1F3682669BB560090FE03;
+			productRefGroup = B6C1F3722669BB560090FE03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6C1F3702669BB560090FE03 /* LeetCode */,
+				B660525D26B29F09004B1C28 /* 1104. 二叉树寻路 */,
+				B6E6D2E226D3B1B600887771 /* 1646. 获取生成数组中的最大值 */,
+				B696676126E78135005F5F68 /* 1221. 分割平衡字符串 */,
+				B60E127F26EF5E7B00A5A798 /* 447. 回旋镖的数量 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B60E127C26EF5E7B00A5A798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60E128326EF5E7B00A5A798 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B660525A26B29F09004B1C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B660526126B29F0A004B1C28 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B696675E26E78135005F5F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B696676526E78135005F5F68 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C1F36D2669BB560090FE03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C1F3752669BB560090FE03 /* main.cpp in Sources */,
+				B6C1F3812669BBF20090FE03 /* mytest.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E6D2DF26D3B1B600887771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E6D2E626D3B1B600887771 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B60E128426EF5E7B00A5A798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B60E128526EF5E7B00A5A798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B660526326B29F0A004B1C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B660526426B29F0A004B1C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B696676626E78135005F5F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B696676726E78135005F5F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6C1F3762669BB560090FE03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B6C1F3772669BB560090FE03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B6C1F3792669BB560090FE03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6C1F37A2669BB560090FE03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6E6D2E726D3B1B600887771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6E6D2E826D3B1B600887771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B60E128626EF5E7B00A5A798 /* Build configuration list for PBXNativeTarget "447. 回旋镖的数量" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60E128426EF5E7B00A5A798 /* Debug */,
+				B60E128526EF5E7B00A5A798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B660526226B29F0A004B1C28 /* Build configuration list for PBXNativeTarget "1104. 二叉树寻路" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B660526326B29F0A004B1C28 /* Debug */,
+				B660526426B29F0A004B1C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B696676826E78135005F5F68 /* Build configuration list for PBXNativeTarget "1221. 分割平衡字符串" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B696676626E78135005F5F68 /* Debug */,
+				B696676726E78135005F5F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C1F36C2669BB560090FE03 /* Build configuration list for PBXProject "LeetCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C1F3762669BB560090FE03 /* Debug */,
+				B6C1F3772669BB560090FE03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C1F3782669BB560090FE03 /* Build configuration list for PBXNativeTarget "LeetCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C1F3792669BB560090FE03 /* Debug */,
+				B6C1F37A2669BB560090FE03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E6D2E926D3B1B600887771 /* Build configuration list for PBXNativeTarget "1646. 获取生成数组中的最大值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E6D2E726D3B1B600887771 /* Debug */,
+				B6E6D2E826D3B1B600887771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6C1F3692669BB560090FE03 /* Project object */;
+}
