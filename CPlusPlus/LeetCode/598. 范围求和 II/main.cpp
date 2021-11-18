@@ -1,24 +1,22 @@
 //
 //  main.cpp
-//  LeetCode
+//  598. 范围求和 II
 //
-//  Created by pulinghao on 2021/6/4.
+//  Created by pulinghao on 2021/11/7.
 //
 
 #include <iostream>
+
 
 #include <unordered_map>
 #include <string>
 #include <vector>
 
 #include <algorithm>
+
 using namespace::std;
 
-/*
- max_element()
- */
 
-#include "mytest.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
