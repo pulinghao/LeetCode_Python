@@ -148,6 +148,22 @@
 		B654EBB42757BEE100938905 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B654EBE0275A662400938905 /* 1005. K 次取反后最大化的数组和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1005. K 次取反后最大化的数组和"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B654EBE2275A662400938905 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B654ECBB276CD09A00938905 /* 496. 下一个更大元素I */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "496. 下一个更大元素I"; sourceTree = "<group>"; };
+		B654ECBC276CD09A00938905 /* 458. 可怜的小猪 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "458. 可怜的小猪"; sourceTree = "<group>"; };
+		B654ECBD276CD09A00938905 /* 229. 求众数 II */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "229. 求众数 II"; sourceTree = "<group>"; };
+		B654ECBE276CD09A00938905 /* 447. 回旋镖的数量 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "447. 回旋镖的数量"; sourceTree = "<group>"; };
+		B654ECBF276CD09A00938905 /* 807. 保持城市天际线 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "807. 保持城市天际线"; sourceTree = "<group>"; };
+		B654ECC0276CD09A00938905 /* 700. 二叉搜索树中的搜索 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "700. 二叉搜索树中的搜索"; sourceTree = "<group>"; };
+		B654ECC1276CD09A00938905 /* 1646. 获取生成数组中的最大值 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "1646. 获取生成数组中的最大值"; sourceTree = "<group>"; };
+		B654ECC2276CD09A00938905 /* 1005. K 次取反后最大化的数组和 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "1005. K 次取反后最大化的数组和"; sourceTree = "<group>"; };
+		B654ECC3276CD09A00938905 /* 520. 检测大写字母 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "520. 检测大写字母"; sourceTree = "<group>"; };
+		B654ECC4276CD09A00938905 /* 1221. 分割平衡字符串 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "1221. 分割平衡字符串"; sourceTree = "<group>"; };
+		B654ECC5276CD09A00938905 /* 1446. 连续字符 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "1446. 连续字符"; sourceTree = "<group>"; };
+		B654ECC6276CD09A00938905 /* 559. N 叉树的最大深度 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "559. N 叉树的最大深度"; sourceTree = "<group>"; };
+		B654ECC7276CD09A00938905 /* 453. 最小操作次数使数组元素相等 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "453. 最小操作次数使数组元素相等"; sourceTree = "<group>"; };
+		B654ECC8276CD09A00938905 /* 598. 范围求和 II */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "598. 范围求和 II"; sourceTree = "<group>"; };
+		B654ECC9276CD09A00938905 /* 1518. 换酒问题 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "1518. 换酒问题"; sourceTree = "<group>"; };
+		B654ECCA276CD09A00938905 /* 1104. 二叉树寻路 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "1104. 二叉树寻路"; sourceTree = "<group>"; };
 		B660525E26B29F09004B1C28 /* 1104. 二叉树寻路 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1104. 二叉树寻路"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B660526026B29F0A004B1C28 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B696676226E78135005F5F68 /* 1221. 分割平衡字符串 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1221. 分割平衡字符串"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -334,6 +350,22 @@
 		B6C1F3682669BB560090FE03 = {
 			isa = PBXGroup;
 			children = (
+				B654ECBD276CD09A00938905 /* 229. 求众数 II */,
+				B654ECBE276CD09A00938905 /* 447. 回旋镖的数量 */,
+				B654ECC7276CD09A00938905 /* 453. 最小操作次数使数组元素相等 */,
+				B654ECBC276CD09A00938905 /* 458. 可怜的小猪 */,
+				B654ECBB276CD09A00938905 /* 496. 下一个更大元素I */,
+				B654ECC3276CD09A00938905 /* 520. 检测大写字母 */,
+				B654ECC6276CD09A00938905 /* 559. N 叉树的最大深度 */,
+				B654ECC8276CD09A00938905 /* 598. 范围求和 II */,
+				B654ECC0276CD09A00938905 /* 700. 二叉搜索树中的搜索 */,
+				B654ECBF276CD09A00938905 /* 807. 保持城市天际线 */,
+				B654ECC2276CD09A00938905 /* 1005. K 次取反后最大化的数组和 */,
+				B654ECCA276CD09A00938905 /* 1104. 二叉树寻路 */,
+				B654ECC4276CD09A00938905 /* 1221. 分割平衡字符串 */,
+				B654ECC5276CD09A00938905 /* 1446. 连续字符 */,
+				B654ECC9276CD09A00938905 /* 1518. 换酒问题 */,
+				B654ECC1276CD09A00938905 /* 1646. 获取生成数组中的最大值 */,
 				B6C1F3732669BB560090FE03 /* LeetCode */,
 				B660525F26B29F0A004B1C28 /* 1104. 二叉树寻路 */,
 				B6E6D2E426D3B1B600887771 /* 1646. 获取生成数组中的最大值 */,
