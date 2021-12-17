@@ -38,10 +38,3 @@ public:
 };
 
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    vector<int> num = vector<int>({3,2,3});
-    Solution sl;
-    sl.majorityElement(num);
-    return 0;
-}
