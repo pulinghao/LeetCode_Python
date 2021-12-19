@@ -18,6 +18,7 @@
 		B696676526E78135005F5F68 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B696676426E78135005F5F68 /* main.cpp */; };
 		B6ACB9E727381B19001F0182 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6ACB9E627381B18001F0182 /* main.cpp */; };
 		B6AF4CA5276CD1F3004EB7C4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6AF4CA4276CD1F3004EB7C4 /* main.cpp */; };
+		B6AF4CB1276F782D004EB7C4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6AF4CB0276F782D004EB7C4 /* main.cpp */; };
 		B6C1F3752669BB560090FE03 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6C1F3742669BB560090FE03 /* main.cpp */; };
 		B6C1F3812669BBF20090FE03 /* mytest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6C1F37F2669BBF20090FE03 /* mytest.cpp */; };
 		B6E6D2E626D3B1B600887771 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E6D2E526D3B1B600887771 /* main.cpp */; };
@@ -123,6 +124,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		B6AF4CAC276F782D004EB7C4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		B6C1F36F2669BB560090FE03 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -182,6 +192,8 @@
 		B6AF4CA2276CD1F3004EB7C4 /* targetnew */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = targetnew; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6AF4CA4276CD1F3004EB7C4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B6AF4CA9276CD251004EB7C4 /* 229. 求众数 II */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "229. 求众数 II"; sourceTree = "<group>"; };
+		B6AF4CAE276F782D004EB7C4 /* 997. 找到小镇的法官 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "997. 找到小镇的法官"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AF4CB0276F782D004EB7C4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B6C1F3712669BB560090FE03 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C1F3742669BB560090FE03 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B6C1F37F2669BBF20090FE03 /* mytest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mytest.cpp; sourceTree = "<group>"; };
@@ -263,6 +275,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B6AF4C9F276CD1F3004EB7C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AF4CAB276F782D004EB7C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,6 +393,14 @@
 			path = targetnew;
 			sourceTree = "<group>";
 		};
+		B6AF4CAF276F782D004EB7C4 /* 997. 找到小镇的法官 */ = {
+			isa = PBXGroup;
+			children = (
+				B6AF4CB0276F782D004EB7C4 /* main.cpp */,
+			);
+			path = "997. 找到小镇的法官";
+			sourceTree = "<group>";
+		};
 		B6C1F3682669BB560090FE03 = {
 			isa = PBXGroup;
 			children = (
@@ -406,6 +433,7 @@
 				B654EBB32757BEE100938905 /* 1446. 连续字符 */,
 				B654EBE1275A662400938905 /* 1005. K 次取反后最大化的数组和 */,
 				B6AF4CA3276CD1F3004EB7C4 /* targetnew */,
+				B6AF4CAF276F782D004EB7C4 /* 997. 找到小镇的法官 */,
 				B6C1F3722669BB560090FE03 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -426,6 +454,7 @@
 				B654EBB22757BEE100938905 /* 1446. 连续字符 */,
 				B654EBE0275A662400938905 /* 1005. K 次取反后最大化的数组和 */,
 				B6AF4CA2276CD1F3004EB7C4 /* targetnew */,
+				B6AF4CAE276F782D004EB7C4 /* 997. 找到小镇的法官 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -639,6 +668,23 @@
 			productReference = B6AF4CA2276CD1F3004EB7C4 /* targetnew */;
 			productType = "com.apple.product-type.tool";
 		};
+		B6AF4CAD276F782D004EB7C4 /* 997. 找到小镇的法官 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6AF4CB2276F782D004EB7C4 /* Build configuration list for PBXNativeTarget "997. 找到小镇的法官" */;
+			buildPhases = (
+				B6AF4CAA276F782D004EB7C4 /* Sources */,
+				B6AF4CAB276F782D004EB7C4 /* Frameworks */,
+				B6AF4CAC276F782D004EB7C4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "997. 找到小镇的法官";
+			productName = "997. 找到小镇的法官";
+			productReference = B6AF4CAE276F782D004EB7C4 /* 997. 找到小镇的法官 */;
+			productType = "com.apple.product-type.tool";
+		};
 		B6C1F3702669BB560090FE03 /* LeetCode */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6C1F3782669BB560090FE03 /* Build configuration list for PBXNativeTarget "LeetCode" */;
@@ -714,6 +760,9 @@
 					B6AF4CA1276CD1F3004EB7C4 = {
 						CreatedOnToolsVersion = 13.1;
 					};
+					B6AF4CAD276F782D004EB7C4 = {
+						CreatedOnToolsVersion = 13.1;
+					};
 					B6C1F3702669BB560090FE03 = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -748,6 +797,7 @@
 				B654EBB12757BEE100938905 /* 1446. 连续字符 */,
 				B654EBDF275A662400938905 /* 1005. K 次取反后最大化的数组和 */,
 				B6AF4CA1276CD1F3004EB7C4 /* targetnew */,
+				B6AF4CAD276F782D004EB7C4 /* 997. 找到小镇的法官 */,
 			);
 		};
 /* End PBXProject section */
@@ -838,6 +888,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6AF4CA5276CD1F3004EB7C4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AF4CAA276F782D004EB7C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AF4CB1276F782D004EB7C4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1076,6 +1134,26 @@
 			name = Debug;
 		};
 		B6AF4CA7276CD1F3004EB7C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6AF4CB3276F782D004EB7C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6AF4CB4276F782D004EB7C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -1332,6 +1410,15 @@
 			buildConfigurations = (
 				B6AF4CA6276CD1F3004EB7C4 /* Debug */,
 				B6AF4CA7276CD1F3004EB7C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6AF4CB2276F782D004EB7C4 /* Build configuration list for PBXNativeTarget "997. 找到小镇的法官" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AF4CB3276F782D004EB7C4 /* Debug */,
+				B6AF4CB4276F782D004EB7C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

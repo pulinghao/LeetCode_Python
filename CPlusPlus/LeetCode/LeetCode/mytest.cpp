@@ -34,23 +34,23 @@ public:
 
 
 
-int main() {
-    string line;
-    while (getline(cin, line)) {
-        int intersectVal = stringToInteger(line);
-        getline(cin, line);
-        ListNode* listA = stringToListNode(line);
-        getline(cin, line);
-        ListNode* listB = stringToListNode(line);
-        getline(cin, line);
-        int skipA = stringToInteger(line);
-        getline(cin, line);
-        int skipB = stringToInteger(line);
-        
-        ListNode* ret = Solution().getIntersectionNode(listA,listB);
-
-        string out = listNodeToString(ret);
-        cout << out << endl;
-    }
-    return 0;
-}
+//int main() {
+//    string line;
+//    while (getline(cin, line)) {
+//        int intersectVal = stringToInteger(line);
+//        getline(cin, line);
+//        ListNode* listA = stringToListNode(line);
+//        getline(cin, line);
+//        ListNode* listB = stringToListNode(line);
+//        getline(cin, line);
+//        int skipA = stringToInteger(line);
+//        getline(cin, line);
+//        int skipB = stringToInteger(line);
+//        
+//        ListNode* ret = Solution().getIntersectionNode(listA,listB);
+//
+//        string out = listNodeToString(ret);
+//        cout << out << endl;
+//    }
+//    return 0;
+//}
