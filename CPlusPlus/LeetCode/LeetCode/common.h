@@ -12,7 +12,9 @@
 #include <string>
 #include <vector>
 #include <sstream>
+#include <algorithm>
 #include <unordered_map>
+#include <queue>
 
 using namespace std;
 
@@ -21,6 +23,20 @@ struct ListNode {
      ListNode *next;
      ListNode(int x) : val(x), next(NULL) {}
 };
+
+
+/**
+ * Definition for a binary tree node.
+ */
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode() : val(0), left(nullptr), right(nullptr) {}
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ };
+ 
 
 int stringToInteger(string input) {
     return stoi(input);
