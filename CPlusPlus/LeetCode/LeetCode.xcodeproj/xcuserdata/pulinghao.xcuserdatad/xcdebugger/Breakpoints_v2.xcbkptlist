@@ -55,17 +55,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "78AC0193-762E-4673-95DA-EDDA8C14DA10"
+            uuid = "ABF44F19-874E-4D21-B3DA-E602768D8AA5"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "1078. Bigram &#x5206;&#x8bcd;/main.cpp"
+            filePath = "507. &#x5b8c;&#x7f8e;&#x6570;/main.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "main(argc, argv)"
-            landmarkType = "9">
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "checkPerfectNumber(num)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
