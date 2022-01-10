@@ -7,7 +7,7 @@
 		<key>1005. K 次取反后最大化的数组和.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>10</integer>
 		</dict>
 		<key>1078. Bigram 分词.xcscheme_^#shared#^_</key>
 		<dict>
@@ -98,6 +98,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
+		</dict>
+		<key>71. 简化路径.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
 		</dict>
 		<key>997. 找到小镇的法官.xcscheme_^#shared#^_</key>
 		<dict>
