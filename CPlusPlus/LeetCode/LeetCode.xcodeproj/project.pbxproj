@@ -10,6 +10,11 @@
 		B6006AAD277619BE00700EF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6006AAC277619BE00700EF7 /* main.cpp */; };
 		B6006AF02777666C00700EF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6006AEF2777666C00700EF7 /* main.cpp */; };
 		B6006AFB2778AD5C00700EF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6006AFA2778AD5C00700EF7 /* main.cpp */; };
+		B60A4F8F279308300075FC1F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60A4F8E279308300075FC1F /* main.cpp */; };
+		B60A5039279460930075FC1F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60A5038279460930075FC1F /* main.cpp */; };
+		B60A508827970DC60075FC1F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60A508727970DC60075FC1F /* main.cpp */; };
+		B60A509327985D8C0075FC1F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60A509227985D8C0075FC1F /* main.cpp */; };
+		B60A5126279B03AC0075FC1F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60A5125279B03AC0075FC1F /* main.cpp */; };
 		B60E128326EF5E7B00A5A798 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60E128226EF5E7B00A5A798 /* main.cpp */; };
 		B64BEEBD274009A1000DB8CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B64BEEBC274009A1000DB8CC /* main.cpp */; };
 		B64BEEDA274A9F0B000DB8CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B64BEED9274A9F0B000DB8CC /* main.cpp */; };
@@ -30,6 +35,8 @@
 		B6E74C6B277EDB4300AF647A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6E74C6A277EDB4300AF647A /* main.cpp */; };
 		B6F98244278896B200D58671 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6F98243278896B200D58671 /* main.cpp */; };
 		B6F9824F278B1FBD00D58671 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6F9824E278B1FBD00D58671 /* main.cpp */; };
+		B6F9825A278F293700D58671 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6F98259278F293700D58671 /* main.cpp */; };
+		B6F98270279072A800D58671 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6F9826F279072A800D58671 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +59,51 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		B6006AF62778AD5C00700EF7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B60A4F8A279308300075FC1F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B60A5034279460930075FC1F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B60A508327970DC60075FC1F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B60A508E27985D8C0075FC1F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B60A5121279B03AC0075FC1F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -231,6 +283,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		B6F98255278F293700D58671 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B6F982602790727300D58671 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B6F9826B279072A800D58671 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -240,6 +319,16 @@
 		B6006AEF2777666C00700EF7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B6006AF82778AD5C00700EF7 /* 1078. Bigram 分词 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1078. Bigram 分词"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6006AFA2778AD5C00700EF7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B60A4F8C279308300075FC1F /* 1716. 计算力扣银行的钱 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1716. 计算力扣银行的钱"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60A4F8E279308300075FC1F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B60A5036279460930075FC1F /* 382. 链表随机节点 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "382. 链表随机节点"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60A5038279460930075FC1F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B60A508527970DC60075FC1F /* 539. 最小时间差 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "539. 最小时间差"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60A508727970DC60075FC1F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B60A509027985D8C0075FC1F /* 219. 存在重复元素 II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "219. 存在重复元素 II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60A509227985D8C0075FC1F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B60A5123279B03AC0075FC1F /* 1345. 跳跃游戏 IV */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1345. 跳跃游戏 IV"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60A5125279B03AC0075FC1F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B60E128026EF5E7B00A5A798 /* 447. 回旋镖的数量 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "447. 回旋镖的数量"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B60E128226EF5E7B00A5A798 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B64BEEBA274009A1000DB8CC /* 520. 检测大写字母 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "520. 检测大写字母"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -297,6 +386,11 @@
 		B6F98243278896B200D58671 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B6F9824C278B1FBD00D58671 /* 1629. 按键持续时间最长的键 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1629. 按键持续时间最长的键"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F9824E278B1FBD00D58671 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B6F98257278F293700D58671 /* 334. 递增的三元子序列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "334. 递增的三元子序列"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6F98259278F293700D58671 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B6F982622790727300D58671 /* class Solution { public:     int dominantIndex(vector<int>& nums) {      } }; */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "class Solution { public:     int dominantIndex(vector<int>& nums) {      } };"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6F9826D279072A800D58671 /* 747. 至少是其他数字两倍的最大数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "747. 至少是其他数字两倍的最大数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6F9826F279072A800D58671 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -315,6 +409,41 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B6006AF52778AD5C00700EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60A4F89279308300075FC1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60A5033279460930075FC1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60A508227970DC60075FC1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60A508D27985D8C0075FC1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60A5120279B03AC0075FC1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -454,6 +583,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B6F98254278F293700D58671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6F9825F2790727300D58671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6F9826A279072A800D58671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -479,6 +629,46 @@
 				B6006AFA2778AD5C00700EF7 /* main.cpp */,
 			);
 			path = "1078. Bigram 分词";
+			sourceTree = "<group>";
+		};
+		B60A4F8D279308300075FC1F /* 1716. 计算力扣银行的钱 */ = {
+			isa = PBXGroup;
+			children = (
+				B60A4F8E279308300075FC1F /* main.cpp */,
+			);
+			path = "1716. 计算力扣银行的钱";
+			sourceTree = "<group>";
+		};
+		B60A5037279460930075FC1F /* 382. 链表随机节点 */ = {
+			isa = PBXGroup;
+			children = (
+				B60A5038279460930075FC1F /* main.cpp */,
+			);
+			path = "382. 链表随机节点";
+			sourceTree = "<group>";
+		};
+		B60A508627970DC60075FC1F /* 539. 最小时间差 */ = {
+			isa = PBXGroup;
+			children = (
+				B60A508727970DC60075FC1F /* main.cpp */,
+			);
+			path = "539. 最小时间差";
+			sourceTree = "<group>";
+		};
+		B60A509127985D8C0075FC1F /* 219. 存在重复元素 II */ = {
+			isa = PBXGroup;
+			children = (
+				B60A509227985D8C0075FC1F /* main.cpp */,
+			);
+			path = "219. 存在重复元素 II";
+			sourceTree = "<group>";
+		};
+		B60A5124279B03AC0075FC1F /* 1345. 跳跃游戏 IV */ = {
+			isa = PBXGroup;
+			children = (
+				B60A5125279B03AC0075FC1F /* main.cpp */,
+			);
+			path = "1345. 跳跃游戏 IV";
 			sourceTree = "<group>";
 		};
 		B60E128126EF5E7B00A5A798 /* 447. 回旋镖的数量 */ = {
@@ -626,6 +816,13 @@
 				B6F98242278896B200D58671 /* 1614. 括号的最大嵌套深度 */,
 				B6F9824D278B1FBD00D58671 /* 1629. 按键持续时间最长的键 */,
 				B6D1AB8727872D7F003CF697 /* 71. 简化路径 */,
+				B6F98258278F293700D58671 /* 334. 递增的三元子序列 */,
+				B6F9826E279072A800D58671 /* 747. 至少是其他数字两倍的最大数 */,
+				B60A4F8D279308300075FC1F /* 1716. 计算力扣银行的钱 */,
+				B60A5037279460930075FC1F /* 382. 链表随机节点 */,
+				B60A508627970DC60075FC1F /* 539. 最小时间差 */,
+				B60A509127985D8C0075FC1F /* 219. 存在重复元素 II */,
+				B60A5124279B03AC0075FC1F /* 1345. 跳跃游戏 IV */,
 				B6C1F3722669BB560090FE03 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -655,6 +852,14 @@
 				B6F98241278896B100D58671 /* 1614. 括号的最大嵌套深度 */,
 				B6F9824C278B1FBD00D58671 /* 1629. 按键持续时间最长的键 */,
 				B6D1AB8627872D7F003CF697 /* 71. 简化路径 */,
+				B6F98257278F293700D58671 /* 334. 递增的三元子序列 */,
+				B6F982622790727300D58671 /* class Solution { public:     int dominantIndex(vector<int>& nums) {      } }; */,
+				B6F9826D279072A800D58671 /* 747. 至少是其他数字两倍的最大数 */,
+				B60A4F8C279308300075FC1F /* 1716. 计算力扣银行的钱 */,
+				B60A5036279460930075FC1F /* 382. 链表随机节点 */,
+				B60A508527970DC60075FC1F /* 539. 最小时间差 */,
+				B60A509027985D8C0075FC1F /* 219. 存在重复元素 II */,
+				B60A5123279B03AC0075FC1F /* 1345. 跳跃游戏 IV */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -710,6 +915,22 @@
 			path = "1629. 按键持续时间最长的键";
 			sourceTree = "<group>";
 		};
+		B6F98258278F293700D58671 /* 334. 递增的三元子序列 */ = {
+			isa = PBXGroup;
+			children = (
+				B6F98259278F293700D58671 /* main.cpp */,
+			);
+			path = "334. 递增的三元子序列";
+			sourceTree = "<group>";
+		};
+		B6F9826E279072A800D58671 /* 747. 至少是其他数字两倍的最大数 */ = {
+			isa = PBXGroup;
+			children = (
+				B6F9826F279072A800D58671 /* main.cpp */,
+			);
+			path = "747. 至少是其他数字两倍的最大数";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -762,6 +983,91 @@
 			name = "1078. Bigram 分词";
 			productName = "1078. Bigram 分词";
 			productReference = B6006AF82778AD5C00700EF7 /* 1078. Bigram 分词 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B60A4F8B279308300075FC1F /* 1716. 计算力扣银行的钱 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60A4F92279308300075FC1F /* Build configuration list for PBXNativeTarget "1716. 计算力扣银行的钱" */;
+			buildPhases = (
+				B60A4F88279308300075FC1F /* Sources */,
+				B60A4F89279308300075FC1F /* Frameworks */,
+				B60A4F8A279308300075FC1F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1716. 计算力扣银行的钱";
+			productName = "1716. 计算力扣银行的钱";
+			productReference = B60A4F8C279308300075FC1F /* 1716. 计算力扣银行的钱 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B60A5035279460930075FC1F /* 382. 链表随机节点 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60A503C279460930075FC1F /* Build configuration list for PBXNativeTarget "382. 链表随机节点" */;
+			buildPhases = (
+				B60A5032279460930075FC1F /* Sources */,
+				B60A5033279460930075FC1F /* Frameworks */,
+				B60A5034279460930075FC1F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "382. 链表随机节点";
+			productName = "382. 链表随机节点";
+			productReference = B60A5036279460930075FC1F /* 382. 链表随机节点 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B60A508427970DC60075FC1F /* 539. 最小时间差 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60A508B27970DC60075FC1F /* Build configuration list for PBXNativeTarget "539. 最小时间差" */;
+			buildPhases = (
+				B60A508127970DC60075FC1F /* Sources */,
+				B60A508227970DC60075FC1F /* Frameworks */,
+				B60A508327970DC60075FC1F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "539. 最小时间差";
+			productName = "539. 最小时间差";
+			productReference = B60A508527970DC60075FC1F /* 539. 最小时间差 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B60A508F27985D8C0075FC1F /* 219. 存在重复元素 II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60A509427985D8C0075FC1F /* Build configuration list for PBXNativeTarget "219. 存在重复元素 II" */;
+			buildPhases = (
+				B60A508C27985D8C0075FC1F /* Sources */,
+				B60A508D27985D8C0075FC1F /* Frameworks */,
+				B60A508E27985D8C0075FC1F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "219. 存在重复元素 II";
+			productName = "219. 存在重复元素 II";
+			productReference = B60A509027985D8C0075FC1F /* 219. 存在重复元素 II */;
+			productType = "com.apple.product-type.tool";
+		};
+		B60A5122279B03AC0075FC1F /* 1345. 跳跃游戏 IV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60A5129279B03AC0075FC1F /* Build configuration list for PBXNativeTarget "1345. 跳跃游戏 IV" */;
+			buildPhases = (
+				B60A511F279B03AC0075FC1F /* Sources */,
+				B60A5120279B03AC0075FC1F /* Frameworks */,
+				B60A5121279B03AC0075FC1F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1345. 跳跃游戏 IV";
+			productName = "1345. 跳跃游戏 IV";
+			productReference = B60A5123279B03AC0075FC1F /* 1345. 跳跃游戏 IV */;
 			productType = "com.apple.product-type.tool";
 		};
 		B60E127F26EF5E7B00A5A798 /* 447. 回旋镖的数量 */ = {
@@ -1087,6 +1393,57 @@
 			productReference = B6F9824C278B1FBD00D58671 /* 1629. 按键持续时间最长的键 */;
 			productType = "com.apple.product-type.tool";
 		};
+		B6F98256278F293700D58671 /* 334. 递增的三元子序列 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6F9825D278F293700D58671 /* Build configuration list for PBXNativeTarget "334. 递增的三元子序列" */;
+			buildPhases = (
+				B6F98253278F293700D58671 /* Sources */,
+				B6F98254278F293700D58671 /* Frameworks */,
+				B6F98255278F293700D58671 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "334. 递增的三元子序列";
+			productName = "334. 递增的三元子序列";
+			productReference = B6F98257278F293700D58671 /* 334. 递增的三元子序列 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B6F982612790727300D58671 /* class Solution { public:     int dominantIndex(vector<int>& nums) {      } }; */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6F982662790727300D58671 /* Build configuration list for PBXNativeTarget "class Solution { public:     int dominantIndex(vector<int>& nums) {      } };" */;
+			buildPhases = (
+				B6F9825E2790727300D58671 /* Sources */,
+				B6F9825F2790727300D58671 /* Frameworks */,
+				B6F982602790727300D58671 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "class Solution { public:     int dominantIndex(vector<int>& nums) {      } };";
+			productName = "class Solution { public:     int dominantIndex(vector<int>& nums) {      } };";
+			productReference = B6F982622790727300D58671 /* class Solution { public:     int dominantIndex(vector<int>& nums) {      } }; */;
+			productType = "com.apple.product-type.tool";
+		};
+		B6F9826C279072A800D58671 /* 747. 至少是其他数字两倍的最大数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6F98271279072A800D58671 /* Build configuration list for PBXNativeTarget "747. 至少是其他数字两倍的最大数" */;
+			buildPhases = (
+				B6F98269279072A800D58671 /* Sources */,
+				B6F9826A279072A800D58671 /* Frameworks */,
+				B6F9826B279072A800D58671 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "747. 至少是其他数字两倍的最大数";
+			productName = "747. 至少是其他数字两倍的最大数";
+			productReference = B6F9826D279072A800D58671 /* 747. 至少是其他数字两倍的最大数 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1102,6 +1459,21 @@
 						CreatedOnToolsVersion = 13.1;
 					};
 					B6006AF72778AD5C00700EF7 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B60A4F8B279308300075FC1F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B60A5035279460930075FC1F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B60A508427970DC60075FC1F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B60A508F27985D8C0075FC1F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B60A5122279B03AC0075FC1F = {
 						CreatedOnToolsVersion = 13.1;
 					};
 					B60E127F26EF5E7B00A5A798 = {
@@ -1161,6 +1533,15 @@
 					B6F9824B278B1FBD00D58671 = {
 						CreatedOnToolsVersion = 13.1;
 					};
+					B6F98256278F293700D58671 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B6F982612790727300D58671 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B6F9826C279072A800D58671 = {
+						CreatedOnToolsVersion = 13.1;
+					};
 				};
 			};
 			buildConfigurationList = B6C1F36C2669BB560090FE03 /* Build configuration list for PBXProject "LeetCode" */;
@@ -1198,6 +1579,14 @@
 				B6F98240278896B100D58671 /* 1614. 括号的最大嵌套深度 */,
 				B6F9824B278B1FBD00D58671 /* 1629. 按键持续时间最长的键 */,
 				B6D1AB8527872D7F003CF697 /* 71. 简化路径 */,
+				B6F98256278F293700D58671 /* 334. 递增的三元子序列 */,
+				B6F982612790727300D58671 /* class Solution { public:     int dominantIndex(vector<int>& nums) {      } }; */,
+				B6F9826C279072A800D58671 /* 747. 至少是其他数字两倍的最大数 */,
+				B60A4F8B279308300075FC1F /* 1716. 计算力扣银行的钱 */,
+				B60A5035279460930075FC1F /* 382. 链表随机节点 */,
+				B60A508427970DC60075FC1F /* 539. 最小时间差 */,
+				B60A508F27985D8C0075FC1F /* 219. 存在重复元素 II */,
+				B60A5122279B03AC0075FC1F /* 1345. 跳跃游戏 IV */,
 			);
 		};
 /* End PBXProject section */
@@ -1224,6 +1613,46 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6006AFB2778AD5C00700EF7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60A4F88279308300075FC1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60A4F8F279308300075FC1F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60A5032279460930075FC1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60A5039279460930075FC1F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60A508127970DC60075FC1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60A508827970DC60075FC1F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60A508C27985D8C0075FC1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60A509327985D8C0075FC1F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60A511F279B03AC0075FC1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60A5126279B03AC0075FC1F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1380,6 +1809,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B6F98253278F293700D58671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F9825A278F293700D58671 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6F9825E2790727300D58671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6F98269279072A800D58671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F98270279072A800D58671 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -1434,6 +1886,106 @@
 			name = Debug;
 		};
 		B6006AFE2778AD5C00700EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B60A4F90279308300075FC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B60A4F91279308300075FC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B60A503A279460930075FC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B60A503B279460930075FC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B60A508927970DC60075FC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B60A508A27970DC60075FC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B60A509527985D8C0075FC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B60A509627985D8C0075FC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B60A5127279B03AC0075FC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B60A5128279B03AC0075FC1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -1944,6 +2496,66 @@
 			};
 			name = Release;
 		};
+		B6F9825B278F293700D58671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6F9825C278F293700D58671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6F982672790727300D58671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6F982682790727300D58671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6F98272279072A800D58671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6F98273279072A800D58671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1970,6 +2582,51 @@
 			buildConfigurations = (
 				B6006AFD2778AD5C00700EF7 /* Debug */,
 				B6006AFE2778AD5C00700EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60A4F92279308300075FC1F /* Build configuration list for PBXNativeTarget "1716. 计算力扣银行的钱" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60A4F90279308300075FC1F /* Debug */,
+				B60A4F91279308300075FC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60A503C279460930075FC1F /* Build configuration list for PBXNativeTarget "382. 链表随机节点" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60A503A279460930075FC1F /* Debug */,
+				B60A503B279460930075FC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60A508B27970DC60075FC1F /* Build configuration list for PBXNativeTarget "539. 最小时间差" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60A508927970DC60075FC1F /* Debug */,
+				B60A508A27970DC60075FC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60A509427985D8C0075FC1F /* Build configuration list for PBXNativeTarget "219. 存在重复元素 II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60A509527985D8C0075FC1F /* Debug */,
+				B60A509627985D8C0075FC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60A5129279B03AC0075FC1F /* Build configuration list for PBXNativeTarget "1345. 跳跃游戏 IV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60A5127279B03AC0075FC1F /* Debug */,
+				B60A5128279B03AC0075FC1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2150,6 +2807,33 @@
 			buildConfigurations = (
 				B6F98251278B1FBD00D58671 /* Debug */,
 				B6F98252278B1FBD00D58671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6F9825D278F293700D58671 /* Build configuration list for PBXNativeTarget "334. 递增的三元子序列" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6F9825B278F293700D58671 /* Debug */,
+				B6F9825C278F293700D58671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6F982662790727300D58671 /* Build configuration list for PBXNativeTarget "class Solution { public:     int dominantIndex(vector<int>& nums) {      } };" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6F982672790727300D58671 /* Debug */,
+				B6F982682790727300D58671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6F98271279072A800D58671 /* Build configuration list for PBXNativeTarget "747. 至少是其他数字两倍的最大数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6F98272279072A800D58671 /* Debug */,
+				B6F98273279072A800D58671 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
