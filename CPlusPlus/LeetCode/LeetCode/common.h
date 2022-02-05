@@ -75,6 +75,38 @@ vector<int> stringToIntegerVector(string input) {
     return output;
 }
 
+vector<vector<int>> stringToIntegerVectors(string input){
+    vector<vector<int>> output;
+    trimLeftTrailingSpaces(input);
+    trimRightTrailingSpaces(input);
+    input = input.substr(1, input.length() - 2);
+    
+    string tempStr;
+    stack<char> st;
+    for (int i = 0; i < input.size(); i++) {
+        if (input[i] == '[') {
+            tempStr.push_back(input[i]);
+        } else if(isnumber(input[i])){
+            tempStr.push_back(input[i]);
+        } else if(input[i] == ']'){
+            tempStr.push_back(input[i]);
+            vector<int> outLine = stringToIntegerVector(tempStr);
+            output.push_back(outLine);
+            tempStr.clear();
+        } else {
+            if (input[i] == ',') {
+                if (tempStr.size() == 0) {
+                    continue;
+                } else {
+                    tempStr.push_back(input[i]);
+                }
+            }
+        }
+    }
+    
+    return output;
+}
+
 ListNode* stringToListNode(string input) {
     // Generate list from the input
     vector<int> list = stringToIntegerVector(input);
