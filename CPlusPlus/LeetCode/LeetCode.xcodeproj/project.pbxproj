@@ -19,6 +19,7 @@
 		B60E128326EF5E7B00A5A798 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60E128226EF5E7B00A5A798 /* main.cpp */; };
 		B62FF44227AD723A00E3EB9B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B62FF44127AD723A00E3EB9B /* main.cpp */; };
 		B62FF44D27AECD7C00E3EB9B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B62FF44C27AECD7C00E3EB9B /* main.cpp */; };
+		B62FF45827B00BA800E3EB9B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B62FF45727B00BA800E3EB9B /* main.cpp */; };
 		B64BEEBD274009A1000DB8CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B64BEEBC274009A1000DB8CC /* main.cpp */; };
 		B64BEEDA274A9F0B000DB8CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B64BEED9274A9F0B000DB8CC /* main.cpp */; };
 		B64BEEE5274FDFC0000DB8CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B64BEEE4274FDFC0000DB8CC /* main.cpp */; };
@@ -148,6 +149,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		B62FF44827AECD7C00E3EB9B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B62FF45327B00BA800E3EB9B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -417,6 +427,8 @@
 		B62FF44127AD723A00E3EB9B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B62FF44A27AECD7C00E3EB9B /* 1219. 黄金矿工 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1219. 黄金矿工"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62FF44C27AECD7C00E3EB9B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B62FF45527B00BA800E3EB9B /* 1748. 唯一元素的和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1748. 唯一元素的和"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62FF45727B00BA800E3EB9B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B64BEEBA274009A1000DB8CC /* 520. 检测大写字母 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "520. 检测大写字母"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64BEEBC274009A1000DB8CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B64BEED7274A9F0B000DB8CC /* 559. N 叉树的最大深度 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "559. N 叉树的最大深度"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -568,6 +580,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B62FF44727AECD7C00E3EB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62FF45227B00BA800E3EB9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -855,6 +874,14 @@
 			path = "1219. 黄金矿工";
 			sourceTree = "<group>";
 		};
+		B62FF45627B00BA800E3EB9B /* 1748. 唯一元素的和 */ = {
+			isa = PBXGroup;
+			children = (
+				B62FF45727B00BA800E3EB9B /* main.cpp */,
+			);
+			path = "1748. 唯一元素的和";
+			sourceTree = "<group>";
+		};
 		B64BEEBB274009A1000DB8CC /* 520. 检测大写字母 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1015,6 +1042,7 @@
 				B60CF43227AAB176008D0D17 /* 2000. 反转单词前缀 */,
 				B62FF44027AD723A00E3EB9B /* 1725. 可以形成最大正方形的矩形数目 */,
 				B62FF44B27AECD7C00E3EB9B /* 1219. 黄金矿工 */,
+				B62FF45627B00BA800E3EB9B /* 1748. 唯一元素的和 */,
 				B6C1F3722669BB560090FE03 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1060,6 +1088,7 @@
 				B60CF43127AAB176008D0D17 /* 2000. 反转单词前缀 */,
 				B62FF43F27AD723A00E3EB9B /* 1725. 可以形成最大正方形的矩形数目 */,
 				B62FF44A27AECD7C00E3EB9B /* 1219. 黄金矿工 */,
+				B62FF45527B00BA800E3EB9B /* 1748. 唯一元素的和 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1368,6 +1397,23 @@
 			name = "1219. 黄金矿工";
 			productName = "1219. 黄金矿工";
 			productReference = B62FF44A27AECD7C00E3EB9B /* 1219. 黄金矿工 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B62FF45427B00BA800E3EB9B /* 1748. 唯一元素的和 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62FF45B27B00BA800E3EB9B /* Build configuration list for PBXNativeTarget "1748. 唯一元素的和" */;
+			buildPhases = (
+				B62FF45127B00BA800E3EB9B /* Sources */,
+				B62FF45227B00BA800E3EB9B /* Frameworks */,
+				B62FF45327B00BA800E3EB9B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1748. 唯一元素的和";
+			productName = "1748. 唯一元素的和";
+			productReference = B62FF45527B00BA800E3EB9B /* 1748. 唯一元素的和 */;
 			productType = "com.apple.product-type.tool";
 		};
 		B64BEEB9274009A1000DB8CC /* 520. 检测大写字母 */ = {
@@ -1856,6 +1902,9 @@
 					B62FF44927AECD7C00E3EB9B = {
 						CreatedOnToolsVersion = 13.1;
 					};
+					B62FF45427B00BA800E3EB9B = {
+						CreatedOnToolsVersion = 13.1;
+					};
 					B64BEEB9274009A1000DB8CC = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -1987,6 +2036,7 @@
 				B60CF43027AAB176008D0D17 /* 2000. 反转单词前缀 */,
 				B62FF43E27AD723A00E3EB9B /* 1725. 可以形成最大正方形的矩形数目 */,
 				B62FF44927AECD7C00E3EB9B /* 1219. 黄金矿工 */,
+				B62FF45427B00BA800E3EB9B /* 1748. 唯一元素的和 */,
 			);
 		};
 /* End PBXProject section */
@@ -2085,6 +2135,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B62FF44D27AECD7C00E3EB9B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62FF45127B00BA800E3EB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62FF45827B00BA800E3EB9B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2534,6 +2592,26 @@
 			name = Debug;
 		};
 		B62FF44F27AECD7C00E3EB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B62FF45927B00BA800E3EB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B62FF45A27B00BA800E3EB9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -3291,6 +3369,15 @@
 			buildConfigurations = (
 				B62FF44E27AECD7C00E3EB9B /* Debug */,
 				B62FF44F27AECD7C00E3EB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62FF45B27B00BA800E3EB9B /* Build configuration list for PBXNativeTarget "1748. 唯一元素的和" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62FF45927B00BA800E3EB9B /* Debug */,
+				B62FF45A27B00BA800E3EB9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
