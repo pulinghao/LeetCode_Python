@@ -20,6 +20,12 @@
 		B62FF44227AD723A00E3EB9B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B62FF44127AD723A00E3EB9B /* main.cpp */; };
 		B62FF44D27AECD7C00E3EB9B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B62FF44C27AECD7C00E3EB9B /* main.cpp */; };
 		B62FF45827B00BA800E3EB9B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B62FF45727B00BA800E3EB9B /* main.cpp */; };
+		B62FF48127B15F5500E3EB9B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B62FF48027B15F5500E3EB9B /* main.cpp */; };
+		B62FF4B827B6AF3800E3EB9B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B62FF4B727B6AF3800E3EB9B /* main.cpp */; };
+		B62FF4C327B9508E00E3EB9B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B62FF4C227B9508E00E3EB9B /* main.cpp */; };
+		B62FF4CE27BBCD5400E3EB9B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B62FF4CD27BBCD5400E3EB9B /* main.cpp */; };
+		B62FF4DF27BFE5B900E3EB9B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B62FF4DE27BFE5B900E3EB9B /* main.cpp */; };
+		B62FF51927C8A2F400E3EB9B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B62FF51827C8A2F400E3EB9B /* main.cpp */; };
 		B64BEEBD274009A1000DB8CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B64BEEBC274009A1000DB8CC /* main.cpp */; };
 		B64BEEDA274A9F0B000DB8CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B64BEED9274A9F0B000DB8CC /* main.cpp */; };
 		B64BEEE5274FDFC0000DB8CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B64BEEE4274FDFC0000DB8CC /* main.cpp */; };
@@ -160,6 +166,60 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		B62FF45327B00BA800E3EB9B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B62FF47C27B15F5500E3EB9B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B62FF4B327B6AF3800E3EB9B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B62FF4BE27B9508E00E3EB9B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B62FF4C927BBCD5400E3EB9B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B62FF4DA27BFE5B900E3EB9B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B62FF51427C8A2F400E3EB9B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -449,6 +509,18 @@
 		B62FF44C27AECD7C00E3EB9B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B62FF45527B00BA800E3EB9B /* 1748. 唯一元素的和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1748. 唯一元素的和"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62FF45727B00BA800E3EB9B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B62FF47E27B15F5500E3EB9B /* 1405. 最长快乐字符串 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1405. 最长快乐字符串"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62FF48027B15F5500E3EB9B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B62FF4B527B6AF3800E3EB9B /* 1984. 学生分数的最小差值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1984. 学生分数的最小差值"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62FF4B727B6AF3800E3EB9B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B62FF4C027B9508E00E3EB9B /* 1189. “气球” 的最大数量 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1189. “气球” 的最大数量"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62FF4C227B9508E00E3EB9B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B62FF4CB27BBCD5400E3EB9B /* 1380. 矩阵中的幸运数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1380. 矩阵中的幸运数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62FF4CD27BBCD5400E3EB9B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B62FF4DC27BFE5B900E3EB9B /* 1791. 找出星型图的中心节点 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1791. 找出星型图的中心节点"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62FF4DE27BFE5B900E3EB9B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B62FF51627C8A2F400E3EB9B /* 537. 复数乘法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "537. 复数乘法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62FF51827C8A2F400E3EB9B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B64BEEBA274009A1000DB8CC /* 520. 检测大写字母 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "520. 检测大写字母"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64BEEBC274009A1000DB8CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B64BEED7274A9F0B000DB8CC /* 559. N 叉树的最大深度 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "559. N 叉树的最大深度"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -611,6 +683,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B62FF45227B00BA800E3EB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62FF47B27B15F5500E3EB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62FF4B227B6AF3800E3EB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62FF4BD27B9508E00E3EB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62FF4C827BBCD5400E3EB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62FF4D927BFE5B900E3EB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62FF51327C8A2F400E3EB9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -920,6 +1034,54 @@
 			path = "1748. 唯一元素的和";
 			sourceTree = "<group>";
 		};
+		B62FF47F27B15F5500E3EB9B /* 1405. 最长快乐字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				B62FF48027B15F5500E3EB9B /* main.cpp */,
+			);
+			path = "1405. 最长快乐字符串";
+			sourceTree = "<group>";
+		};
+		B62FF4B627B6AF3800E3EB9B /* 1984. 学生分数的最小差值 */ = {
+			isa = PBXGroup;
+			children = (
+				B62FF4B727B6AF3800E3EB9B /* main.cpp */,
+			);
+			path = "1984. 学生分数的最小差值";
+			sourceTree = "<group>";
+		};
+		B62FF4C127B9508E00E3EB9B /* 1189. “气球” 的最大数量 */ = {
+			isa = PBXGroup;
+			children = (
+				B62FF4C227B9508E00E3EB9B /* main.cpp */,
+			);
+			path = "1189. “气球” 的最大数量";
+			sourceTree = "<group>";
+		};
+		B62FF4CC27BBCD5400E3EB9B /* 1380. 矩阵中的幸运数 */ = {
+			isa = PBXGroup;
+			children = (
+				B62FF4CD27BBCD5400E3EB9B /* main.cpp */,
+			);
+			path = "1380. 矩阵中的幸运数";
+			sourceTree = "<group>";
+		};
+		B62FF4DD27BFE5B900E3EB9B /* 1791. 找出星型图的中心节点 */ = {
+			isa = PBXGroup;
+			children = (
+				B62FF4DE27BFE5B900E3EB9B /* main.cpp */,
+			);
+			path = "1791. 找出星型图的中心节点";
+			sourceTree = "<group>";
+		};
+		B62FF51727C8A2F400E3EB9B /* 537. 复数乘法 */ = {
+			isa = PBXGroup;
+			children = (
+				B62FF51827C8A2F400E3EB9B /* main.cpp */,
+			);
+			path = "537. 复数乘法";
+			sourceTree = "<group>";
+		};
 		B64BEEBB274009A1000DB8CC /* 520. 检测大写字母 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1099,6 +1261,12 @@
 				B62FF45627B00BA800E3EB9B /* 1748. 唯一元素的和 */,
 				B691D73227A5239F00C8B8A7 /* 1765. 地图中的最高点 */,
 				B64D0E1E27B53868002404F1 /* 1447. 最简分数 */,
+				B62FF47F27B15F5500E3EB9B /* 1405. 最长快乐字符串 */,
+				B62FF4B627B6AF3800E3EB9B /* 1984. 学生分数的最小差值 */,
+				B62FF4C127B9508E00E3EB9B /* 1189. “气球” 的最大数量 */,
+				B62FF4CC27BBCD5400E3EB9B /* 1380. 矩阵中的幸运数 */,
+				B62FF4DD27BFE5B900E3EB9B /* 1791. 找出星型图的中心节点 */,
+				B62FF51727C8A2F400E3EB9B /* 537. 复数乘法 */,
 				B6C1F3722669BB560090FE03 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1147,6 +1315,12 @@
 				B62FF45527B00BA800E3EB9B /* 1748. 唯一元素的和 */,
 				B691D73127A5239F00C8B8A7 /* 1765. 地图中的最高点 */,
 				B64D0E1D27B53868002404F1 /* 1447. 最简分数 */,
+				B62FF47E27B15F5500E3EB9B /* 1405. 最长快乐字符串 */,
+				B62FF4B527B6AF3800E3EB9B /* 1984. 学生分数的最小差值 */,
+				B62FF4C027B9508E00E3EB9B /* 1189. “气球” 的最大数量 */,
+				B62FF4CB27BBCD5400E3EB9B /* 1380. 矩阵中的幸运数 */,
+				B62FF4DC27BFE5B900E3EB9B /* 1791. 找出星型图的中心节点 */,
+				B62FF51627C8A2F400E3EB9B /* 537. 复数乘法 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1472,6 +1646,108 @@
 			name = "1748. 唯一元素的和";
 			productName = "1748. 唯一元素的和";
 			productReference = B62FF45527B00BA800E3EB9B /* 1748. 唯一元素的和 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B62FF47D27B15F5500E3EB9B /* 1405. 最长快乐字符串 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62FF48427B15F5500E3EB9B /* Build configuration list for PBXNativeTarget "1405. 最长快乐字符串" */;
+			buildPhases = (
+				B62FF47A27B15F5500E3EB9B /* Sources */,
+				B62FF47B27B15F5500E3EB9B /* Frameworks */,
+				B62FF47C27B15F5500E3EB9B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1405. 最长快乐字符串";
+			productName = "1405. 最长快乐字符串";
+			productReference = B62FF47E27B15F5500E3EB9B /* 1405. 最长快乐字符串 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B62FF4B427B6AF3800E3EB9B /* 1984. 学生分数的最小差值 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62FF4BB27B6AF3800E3EB9B /* Build configuration list for PBXNativeTarget "1984. 学生分数的最小差值" */;
+			buildPhases = (
+				B62FF4B127B6AF3800E3EB9B /* Sources */,
+				B62FF4B227B6AF3800E3EB9B /* Frameworks */,
+				B62FF4B327B6AF3800E3EB9B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1984. 学生分数的最小差值";
+			productName = "1984. 学生分数的最小差值";
+			productReference = B62FF4B527B6AF3800E3EB9B /* 1984. 学生分数的最小差值 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B62FF4BF27B9508E00E3EB9B /* 1189. “气球” 的最大数量 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62FF4C427B9508E00E3EB9B /* Build configuration list for PBXNativeTarget "1189. “气球” 的最大数量" */;
+			buildPhases = (
+				B62FF4BC27B9508E00E3EB9B /* Sources */,
+				B62FF4BD27B9508E00E3EB9B /* Frameworks */,
+				B62FF4BE27B9508E00E3EB9B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1189. “气球” 的最大数量";
+			productName = "1189. “气球” 的最大数量";
+			productReference = B62FF4C027B9508E00E3EB9B /* 1189. “气球” 的最大数量 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B62FF4CA27BBCD5400E3EB9B /* 1380. 矩阵中的幸运数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62FF4D127BBCD5400E3EB9B /* Build configuration list for PBXNativeTarget "1380. 矩阵中的幸运数" */;
+			buildPhases = (
+				B62FF4C727BBCD5400E3EB9B /* Sources */,
+				B62FF4C827BBCD5400E3EB9B /* Frameworks */,
+				B62FF4C927BBCD5400E3EB9B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1380. 矩阵中的幸运数";
+			productName = "1380. 矩阵中的幸运数";
+			productReference = B62FF4CB27BBCD5400E3EB9B /* 1380. 矩阵中的幸运数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B62FF4DB27BFE5B900E3EB9B /* 1791. 找出星型图的中心节点 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62FF4E227BFE5B900E3EB9B /* Build configuration list for PBXNativeTarget "1791. 找出星型图的中心节点" */;
+			buildPhases = (
+				B62FF4D827BFE5B900E3EB9B /* Sources */,
+				B62FF4D927BFE5B900E3EB9B /* Frameworks */,
+				B62FF4DA27BFE5B900E3EB9B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1791. 找出星型图的中心节点";
+			productName = "1791. 找出星型图的中心节点";
+			productReference = B62FF4DC27BFE5B900E3EB9B /* 1791. 找出星型图的中心节点 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B62FF51527C8A2F400E3EB9B /* 537. 复数乘法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62FF51C27C8A2F400E3EB9B /* Build configuration list for PBXNativeTarget "537. 复数乘法" */;
+			buildPhases = (
+				B62FF51227C8A2F400E3EB9B /* Sources */,
+				B62FF51327C8A2F400E3EB9B /* Frameworks */,
+				B62FF51427C8A2F400E3EB9B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "537. 复数乘法";
+			productName = "537. 复数乘法";
+			productReference = B62FF51627C8A2F400E3EB9B /* 537. 复数乘法 */;
 			productType = "com.apple.product-type.tool";
 		};
 		B64BEEB9274009A1000DB8CC /* 520. 检测大写字母 */ = {
@@ -1997,6 +2273,24 @@
 					B62FF45427B00BA800E3EB9B = {
 						CreatedOnToolsVersion = 13.1;
 					};
+					B62FF47D27B15F5500E3EB9B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B62FF4B427B6AF3800E3EB9B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B62FF4BF27B9508E00E3EB9B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B62FF4CA27BBCD5400E3EB9B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B62FF4DB27BFE5B900E3EB9B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B62FF51527C8A2F400E3EB9B = {
+						CreatedOnToolsVersion = 13.1;
+					};
 					B64BEEB9274009A1000DB8CC = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -2137,6 +2431,12 @@
 				B62FF45427B00BA800E3EB9B /* 1748. 唯一元素的和 */,
 				B691D73027A5239F00C8B8A7 /* 1765. 地图中的最高点 */,
 				B64D0E1C27B53868002404F1 /* 1447. 最简分数 */,
+				B62FF47D27B15F5500E3EB9B /* 1405. 最长快乐字符串 */,
+				B62FF4B427B6AF3800E3EB9B /* 1984. 学生分数的最小差值 */,
+				B62FF4BF27B9508E00E3EB9B /* 1189. “气球” 的最大数量 */,
+				B62FF4CA27BBCD5400E3EB9B /* 1380. 矩阵中的幸运数 */,
+				B62FF4DB27BFE5B900E3EB9B /* 1791. 找出星型图的中心节点 */,
+				B62FF51527C8A2F400E3EB9B /* 537. 复数乘法 */,
 			);
 		};
 /* End PBXProject section */
@@ -2243,6 +2543,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				B62FF45827B00BA800E3EB9B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62FF47A27B15F5500E3EB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62FF48127B15F5500E3EB9B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62FF4B127B6AF3800E3EB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62FF4B827B6AF3800E3EB9B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62FF4BC27B9508E00E3EB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62FF4C327B9508E00E3EB9B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62FF4C727BBCD5400E3EB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62FF4CE27BBCD5400E3EB9B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62FF4D827BFE5B900E3EB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62FF4DF27BFE5B900E3EB9B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62FF51227C8A2F400E3EB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62FF51927C8A2F400E3EB9B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2728,6 +3076,126 @@
 			name = Debug;
 		};
 		B62FF45A27B00BA800E3EB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B62FF48227B15F5500E3EB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B62FF48327B15F5500E3EB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B62FF4B927B6AF3800E3EB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B62FF4BA27B6AF3800E3EB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B62FF4C527B9508E00E3EB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B62FF4C627B9508E00E3EB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B62FF4CF27BBCD5400E3EB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B62FF4D027BBCD5400E3EB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B62FF4E027BFE5B900E3EB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B62FF4E127BFE5B900E3EB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B62FF51A27C8A2F400E3EB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B62FF51B27C8A2F400E3EB9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -3542,6 +4010,60 @@
 			buildConfigurations = (
 				B62FF45927B00BA800E3EB9B /* Debug */,
 				B62FF45A27B00BA800E3EB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62FF48427B15F5500E3EB9B /* Build configuration list for PBXNativeTarget "1405. 最长快乐字符串" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62FF48227B15F5500E3EB9B /* Debug */,
+				B62FF48327B15F5500E3EB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62FF4BB27B6AF3800E3EB9B /* Build configuration list for PBXNativeTarget "1984. 学生分数的最小差值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62FF4B927B6AF3800E3EB9B /* Debug */,
+				B62FF4BA27B6AF3800E3EB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62FF4C427B9508E00E3EB9B /* Build configuration list for PBXNativeTarget "1189. “气球” 的最大数量" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62FF4C527B9508E00E3EB9B /* Debug */,
+				B62FF4C627B9508E00E3EB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62FF4D127BBCD5400E3EB9B /* Build configuration list for PBXNativeTarget "1380. 矩阵中的幸运数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62FF4CF27BBCD5400E3EB9B /* Debug */,
+				B62FF4D027BBCD5400E3EB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62FF4E227BFE5B900E3EB9B /* Build configuration list for PBXNativeTarget "1791. 找出星型图的中心节点" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62FF4E027BFE5B900E3EB9B /* Debug */,
+				B62FF4E127BFE5B900E3EB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62FF51C27C8A2F400E3EB9B /* Build configuration list for PBXNativeTarget "537. 复数乘法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62FF51A27C8A2F400E3EB9B /* Debug */,
+				B62FF51B27C8A2F400E3EB9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
