@@ -17,8 +17,9 @@ int stoi(string str);
 
 ## int  转 string
 
-```
-to_string(int)
+```c++
+int a = 10;
+string str_a = to_string(a);
 ```
 
 
@@ -44,4 +45,19 @@ for (auto iter = umap.begin(); iter != umap.end(); ++iter) {
 vector<int>& arr;
 reverse(arr.begin(), arr.begin() + n);
 ```
+
+- 排序
+
+  - 按照字符串长度和字母序排序
+
+  ```c++
+  vector<string>& words;
+  sort(words.begin(), words.end(), [](const string &a, const string &b) {
+    // 如果两个字符串长度不相等，返回 更长的字符串；
+    // 如果两个字符串长度相等，返回 字母序靠前的字符串
+  	return a.size() != b.size() ? a.size() < b.size() : a > b;
+  });
+  ```
+
+  
 
