@@ -1,5 +1,5 @@
-
-
+#!/usr/bin/env python
+# _*_coding:utf-8 _*_
 import leetcode_utils
 
 class Solution(object):
@@ -19,9 +19,9 @@ class Solution(object):
             return 0
         return root.val + self.getSum(root.left) + self.getSum(root.right)
         pass
+
 if __name__ == '__main__':
     line = "[]"
     root = leetcode_utils.stringToTreeNode(line)
-
-    out = Solution().diameterOfBinaryTree(root)
+    out = Solution().findTilt(root)
     print out

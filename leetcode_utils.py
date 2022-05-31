@@ -8,6 +8,9 @@
 """
 
 import json
+import sys
+
+INT_MAX = sys.maxint
 
 
 class TreeNode(object):

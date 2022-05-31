@@ -13,6 +13,8 @@ int ia = a - '0';
 int stoi(string str);
 ```
 
+## 判断是否是int
+
 
 
 ## int  转 string
@@ -23,6 +25,16 @@ string str_a = to_string(a);
 ```
 
 
+
+# 字符串
+
+## 搜索字符串
+
+`find`接口，没查找到，返回`string::npos`
+
+```c++
+str.find(goal) != string::npos;
+```
 
 # unordered_map
 
@@ -36,6 +48,18 @@ for (auto iter = umap.begin(); iter != umap.end(); ++iter) {
     cout << "<" << iter->first << ", " << iter->second << ">" << endl;
 }
 ```
+
+- 判断某个key是否存在
+
+```c++
+unordered_map<char, vector<char>> edges;
+// 判断 某个key是否存在，不存在的话，创建一个vector数组作为value
+if (!edges.count(key)) {
+    edges[key] = vector<char>();
+}
+```
+
+
 
 # vector
 
@@ -59,5 +83,21 @@ reverse(arr.begin(), arr.begin() + n);
   });
   ```
 
-  
+
+- 求和`accumulate`
+
+```c++
+#include<numeric>
+
+vector<int> account;
+accumulate(account.begin(), account.end(), 0)
+```
+
+
+
+# 数学
+
+- `__builtin_popcount(x)`
+
+精确计算二进制中1的个数
 
