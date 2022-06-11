@@ -36,6 +36,15 @@ string str_a = to_string(a);
 str.find(goal) != string::npos;
 ```
 
+## 字符串扩容
+
+```c++
+// 将原来的字符串扩容到n的大小
+string.resize(n)
+```
+
+
+
 # unordered_map
 
 ### 遍历
@@ -62,6 +71,17 @@ if (!edges.count(key)) {
 
 
 # vector
+
+- 判断是否为空
+
+```c++
+vector<int>& arr;
+if(arr.empty()){
+	
+}
+```
+
+
 
 - 反转
 
