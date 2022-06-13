@@ -50,6 +50,14 @@
 		B66C1A1728542F7100F1C5FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B66C1A1628542F7100F1C5FD /* main.cpp */; };
 		B66C1A2E28543DBE00F1C5FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B66C1A2D28543DBE00F1C5FD /* main.cpp */; };
 		B66C1A39285497B500F1C5FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B66C1A38285497B500F1C5FD /* main.cpp */; };
+		B66C1A482854CC8C00F1C5FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B66C1A472854CC8C00F1C5FD /* main.cpp */; };
+		B66C1A5528557D1500F1C5FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B66C1A5428557D1500F1C5FD /* main.cpp */; };
+		B66C1A61285588C700F1C5FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B66C1A60285588C700F1C5FD /* main.cpp */; };
+		B66C1A6C2855B18600F1C5FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B66C1A6B2855B18600F1C5FD /* main.cpp */; };
+		B66C1A772855B4B700F1C5FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B66C1A762855B4B700F1C5FD /* main.cpp */; };
+		B66C1A82285626CE00F1C5FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B66C1A81285626CE00F1C5FD /* main.cpp */; };
+		B66C1A8D2856313A00F1C5FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B66C1A8C2856313A00F1C5FD /* main.cpp */; };
+		B66C1A9828563D4B00F1C5FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B66C1A9728563D4B00F1C5FD /* main.cpp */; };
 		B685FE3A27722157005D6F68 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B685FE3927722157005D6F68 /* main.cpp */; };
 		B691D73427A5239F00C8B8A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B691D73327A5239F00C8B8A7 /* main.cpp */; };
 		B696676526E78135005F5F68 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B696676426E78135005F5F68 /* main.cpp */; };
@@ -471,6 +479,78 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		B66C1A432854CC8C00F1C5FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B66C1A5028557D1500F1C5FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B66C1A5C285588C700F1C5FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B66C1A672855B18600F1C5FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B66C1A722855B4B700F1C5FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B66C1A7D285626CE00F1C5FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B66C1A882856313A00F1C5FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B66C1A9328563D4A00F1C5FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		B685FE3527722157005D6F68 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -825,17 +905,14 @@
 		B654ECBC276CD09A00938905 /* 458. 可怜的小猪 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "458. 可怜的小猪"; sourceTree = "<group>"; };
 		B654ECBE276CD09A00938905 /* 447. 回旋镖的数量 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "447. 回旋镖的数量"; sourceTree = "<group>"; };
 		B654ECBF276CD09A00938905 /* 807. 保持城市天际线 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "807. 保持城市天际线"; sourceTree = "<group>"; };
-		B654ECC0276CD09A00938905 /* 700. 二叉搜索树中的搜索 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "700. 二叉搜索树中的搜索"; sourceTree = "<group>"; };
 		B654ECC1276CD09A00938905 /* 1646. 获取生成数组中的最大值 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "1646. 获取生成数组中的最大值"; sourceTree = "<group>"; };
 		B654ECC2276CD09A00938905 /* 1005. K 次取反后最大化的数组和 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "1005. K 次取反后最大化的数组和"; sourceTree = "<group>"; };
 		B654ECC3276CD09A00938905 /* 520. 检测大写字母 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "520. 检测大写字母"; sourceTree = "<group>"; };
 		B654ECC4276CD09A00938905 /* 1221. 分割平衡字符串 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "1221. 分割平衡字符串"; sourceTree = "<group>"; };
 		B654ECC5276CD09A00938905 /* 1446. 连续字符 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "1446. 连续字符"; sourceTree = "<group>"; };
-		B654ECC6276CD09A00938905 /* 559. N 叉树的最大深度 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "559. N 叉树的最大深度"; sourceTree = "<group>"; };
 		B654ECC7276CD09A00938905 /* 453. 最小操作次数使数组元素相等 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "453. 最小操作次数使数组元素相等"; sourceTree = "<group>"; };
 		B654ECC8276CD09A00938905 /* 598. 范围求和 II */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "598. 范围求和 II"; sourceTree = "<group>"; };
 		B654ECC9276CD09A00938905 /* 1518. 换酒问题 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "1518. 换酒问题"; sourceTree = "<group>"; };
-		B654ECCA276CD09A00938905 /* 1104. 二叉树寻路 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "1104. 二叉树寻路"; sourceTree = "<group>"; };
 		B658A99B280075C200FEFA2B /* 429. N 叉树的层序遍历 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "429. N 叉树的层序遍历"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B658A99D280075C200FEFA2B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B660525E26B29F09004B1C28 /* 1104. 二叉树寻路 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1104. 二叉树寻路"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -854,6 +931,22 @@
 		B66C1A2D28543DBE00F1C5FD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B66C1A36285497B500F1C5FD /* 剑指 Offer 31. 栈的压入、弹出序列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "剑指 Offer 31. 栈的压入、弹出序列"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66C1A38285497B500F1C5FD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B66C1A452854CC8C00F1C5FD /* 926. 将字符串翻转到单调递增 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "926. 将字符串翻转到单调递增"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66C1A472854CC8C00F1C5FD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B66C1A5228557D1500F1C5FD /* 剑指 Offer 24. 反转链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "剑指 Offer 24. 反转链表"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66C1A5428557D1500F1C5FD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B66C1A5E285588C700F1C5FD /* 剑指 Offer 26. 树的子结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "剑指 Offer 26. 树的子结构"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66C1A60285588C700F1C5FD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B66C1A692855B18600F1C5FD /* 剑指 Offer 30. 包含min函数的栈 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "剑指 Offer 30. 包含min函数的栈"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66C1A6B2855B18600F1C5FD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B66C1A742855B4B700F1C5FD /* 剑指 Offer 54. 二叉搜索树的第k大节点 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "剑指 Offer 54. 二叉搜索树的第k大节点"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66C1A762855B4B700F1C5FD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B66C1A7F285626CE00F1C5FD /* 890. 查找和替换模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "890. 查找和替换模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66C1A81285626CE00F1C5FD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B66C1A8A2856313A00F1C5FD /* 剑指 Offer 32 - I. 从上到下打印二叉树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "剑指 Offer 32 - I. 从上到下打印二叉树"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66C1A8C2856313A00F1C5FD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B66C1A9528563D4B00F1C5FD /* 剑指 Offer 32 - III. 从上到下打印二叉树 III */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "剑指 Offer 32 - III. 从上到下打印二叉树 III"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66C1A9728563D4B00F1C5FD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B685FE3727722157005D6F68 /* 1154. 一年中的第几天 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1154. 一年中的第几天"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B685FE3927722157005D6F68 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B691D73127A5239F00C8B8A7 /* 1765. 地图中的最高点 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1765. 地图中的最高点"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1217,6 +1310,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B66C1A33285497B500F1C5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C1A422854CC8C00F1C5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C1A4F28557D1500F1C5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C1A5B285588C700F1C5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C1A662855B18600F1C5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C1A712855B4B700F1C5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C1A7C285626CE00F1C5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C1A872856313A00F1C5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C1A9228563D4A00F1C5FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1813,6 +1962,7 @@
 		B66C1A3E2854CBDD00F1C5FD /* 二叉树&树 */ = {
 			isa = PBXGroup;
 			children = (
+				B6006AEE2777666C00700EF7 /* 1609. 奇偶树 */,
 				B658A99C280075C200FEFA2B /* 429. N 叉树的层序遍历 */,
 				B64BEEF1275138CE000DB8CC /* 700. 二叉搜索树中的搜索 */,
 				B64BEED8274A9F0B000DB8CC /* 559. N 叉树的最大深度 */,
@@ -1826,6 +1976,104 @@
 				B660525F26B29F0A004B1C28 /* 1104. 二叉树寻路 */,
 			);
 			path = "回溯";
+			sourceTree = "<group>";
+		};
+		B66C1A402854CC7600F1C5FD /* 动态规划 */ = {
+			isa = PBXGroup;
+			children = (
+				B66C1A462854CC8C00F1C5FD /* 926. 将字符串翻转到单调递增 */,
+			);
+			path = "动态规划";
+			sourceTree = "<group>";
+		};
+		B66C1A462854CC8C00F1C5FD /* 926. 将字符串翻转到单调递增 */ = {
+			isa = PBXGroup;
+			children = (
+				B66C1A472854CC8C00F1C5FD /* main.cpp */,
+			);
+			path = "926. 将字符串翻转到单调递增";
+			sourceTree = "<group>";
+		};
+		B66C1A4C28557CD900F1C5FD /* 数学 */ = {
+			isa = PBXGroup;
+			children = (
+				B62FF51727C8A2F400E3EB9B /* 537. 复数乘法 */,
+				B64BEEE3274FDFC0000DB8CC /* 458. 可怜的小猪 */,
+			);
+			path = "数学";
+			sourceTree = "<group>";
+		};
+		B66C1A4D28557CED00F1C5FD /* 栈 */ = {
+			isa = PBXGroup;
+			children = (
+				B6F98242278896B200D58671 /* 1614. 括号的最大嵌套深度 */,
+			);
+			path = "栈";
+			sourceTree = "<group>";
+		};
+		B66C1A5328557D1500F1C5FD /* 剑指 Offer 24. 反转链表 */ = {
+			isa = PBXGroup;
+			children = (
+				B66C1A5428557D1500F1C5FD /* main.cpp */,
+			);
+			path = "剑指 Offer 24. 反转链表";
+			sourceTree = "<group>";
+		};
+		B66C1A59285588B500F1C5FD /* 字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				B64BEEBB274009A1000DB8CC /* 520. 检测大写字母 */,
+				B654EBB32757BEE100938905 /* 1446. 连续字符 */,
+			);
+			path = "字符串";
+			sourceTree = "<group>";
+		};
+		B66C1A5F285588C700F1C5FD /* 剑指 Offer 26. 树的子结构 */ = {
+			isa = PBXGroup;
+			children = (
+				B66C1A60285588C700F1C5FD /* main.cpp */,
+			);
+			path = "剑指 Offer 26. 树的子结构";
+			sourceTree = "<group>";
+		};
+		B66C1A6A2855B18600F1C5FD /* 剑指 Offer 30. 包含min函数的栈 */ = {
+			isa = PBXGroup;
+			children = (
+				B66C1A6B2855B18600F1C5FD /* main.cpp */,
+			);
+			path = "剑指 Offer 30. 包含min函数的栈";
+			sourceTree = "<group>";
+		};
+		B66C1A752855B4B700F1C5FD /* 剑指 Offer 54. 二叉搜索树的第k大节点 */ = {
+			isa = PBXGroup;
+			children = (
+				B66C1A762855B4B700F1C5FD /* main.cpp */,
+			);
+			path = "剑指 Offer 54. 二叉搜索树的第k大节点";
+			sourceTree = "<group>";
+		};
+		B66C1A80285626CE00F1C5FD /* 890. 查找和替换模式 */ = {
+			isa = PBXGroup;
+			children = (
+				B66C1A81285626CE00F1C5FD /* main.cpp */,
+			);
+			path = "890. 查找和替换模式";
+			sourceTree = "<group>";
+		};
+		B66C1A8B2856313A00F1C5FD /* 剑指 Offer 32 - I. 从上到下打印二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				B66C1A8C2856313A00F1C5FD /* main.cpp */,
+			);
+			path = "剑指 Offer 32 - I. 从上到下打印二叉树";
+			sourceTree = "<group>";
+		};
+		B66C1A9628563D4B00F1C5FD /* 剑指 Offer 32 - III. 从上到下打印二叉树 III */ = {
+			isa = PBXGroup;
+			children = (
+				B66C1A9728563D4B00F1C5FD /* main.cpp */,
+			);
+			path = "剑指 Offer 32 - III. 从上到下打印二叉树 III";
 			sourceTree = "<group>";
 		};
 		B685FE3827722157005D6F68 /* 1154. 一年中的第几天 */ = {
@@ -1879,6 +2127,10 @@
 		B6C1F3682669BB560090FE03 = {
 			isa = PBXGroup;
 			children = (
+				B66C1A59285588B500F1C5FD /* 字符串 */,
+				B66C1A4D28557CED00F1C5FD /* 栈 */,
+				B66C1A4C28557CD900F1C5FD /* 数学 */,
+				B66C1A402854CC7600F1C5FD /* 动态规划 */,
 				B66C1A3F2854CBEF00F1C5FD /* 回溯 */,
 				B66C1A3E2854CBDD00F1C5FD /* 二叉树&树 */,
 				B66C1A3D2854CBAE00F1C5FD /* DFS&BFS */,
@@ -1891,12 +2143,9 @@
 				B654ECBC276CD09A00938905 /* 458. 可怜的小猪 */,
 				B654ECBB276CD09A00938905 /* 496. 下一个更大元素I */,
 				B654ECC3276CD09A00938905 /* 520. 检测大写字母 */,
-				B654ECC6276CD09A00938905 /* 559. N 叉树的最大深度 */,
 				B654ECC8276CD09A00938905 /* 598. 范围求和 II */,
-				B654ECC0276CD09A00938905 /* 700. 二叉搜索树中的搜索 */,
 				B654ECBF276CD09A00938905 /* 807. 保持城市天际线 */,
 				B654ECC2276CD09A00938905 /* 1005. K 次取反后最大化的数组和 */,
-				B654ECCA276CD09A00938905 /* 1104. 二叉树寻路 */,
 				B654ECC4276CD09A00938905 /* 1221. 分割平衡字符串 */,
 				B654ECC5276CD09A00938905 /* 1446. 连续字符 */,
 				B654ECC9276CD09A00938905 /* 1518. 换酒问题 */,
@@ -1906,18 +2155,13 @@
 				B696676326E78135005F5F68 /* 1221. 分割平衡字符串 */,
 				B60E128126EF5E7B00A5A798 /* 447. 回旋镖的数量 */,
 				B6ACB9E527381B18001F0182 /* 598. 范围求和 II */,
-				B64BEEBB274009A1000DB8CC /* 520. 检测大写字母 */,
-				B64BEEE3274FDFC0000DB8CC /* 458. 可怜的小猪 */,
-				B654EBB32757BEE100938905 /* 1446. 连续字符 */,
 				B654EBE1275A662400938905 /* 1005. K 次取反后最大化的数组和 */,
 				B6AF4CA3276CD1F3004EB7C4 /* targetnew */,
 				B6AF4CAF276F782D004EB7C4 /* 997. 找到小镇的法官 */,
 				B685FE3827722157005D6F68 /* 1154. 一年中的第几天 */,
 				B6006AAB277619BE00700EF7 /* 1705. 吃苹果的最大数目 */,
-				B6006AEE2777666C00700EF7 /* 1609. 奇偶树 */,
 				B6006AF92778AD5C00700EF7 /* 1078. Bigram 分词 */,
 				B6E74C69277EDB4300AF647A /* 507. 完美数 */,
-				B6F98242278896B200D58671 /* 1614. 括号的最大嵌套深度 */,
 				B6F9824D278B1FBD00D58671 /* 1629. 按键持续时间最长的键 */,
 				B6D1AB8727872D7F003CF697 /* 71. 简化路径 */,
 				B6F98258278F293700D58671 /* 334. 递增的三元子序列 */,
@@ -1943,7 +2187,6 @@
 				B62FF4C127B9508E00E3EB9B /* 1189. “气球” 的最大数量 */,
 				B62FF4CC27BBCD5400E3EB9B /* 1380. 矩阵中的幸运数 */,
 				B62FF4DD27BFE5B900E3EB9B /* 1791. 找出星型图的中心节点 */,
-				B62FF51727C8A2F400E3EB9B /* 537. 复数乘法 */,
 				B62FF54F27CA6B7000E3EB9B /* 2016. 增量元素之间的最大差值 */,
 				B62FF5AC27D10EDF00E3EB9B /* 258. 各位相加 */,
 				B60CB68727DB9DA000AF2738 /* 测试C++性能 */,
@@ -1961,6 +2204,7 @@
 				B6D57DD82818404F00EDC616 /* 883. 三维形体投影面积 */,
 				B6D57E9D2829631900EDC616 /* 942. 增减字符串匹配 */,
 				B6CC9AA7283B76B8003995FD /* 面试-最长回文字串 */,
+				B66C1A80285626CE00F1C5FD /* 890. 查找和替换模式 */,
 				B6C1F3722669BB560090FE03 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2042,6 +2286,14 @@
 				B66C1A1428542F7100F1C5FD /* 位运算 */,
 				B66C1A2B28543DBE00F1C5FD /* 剑指 Offer 17. 打印从1到最大的n位数 */,
 				B66C1A36285497B500F1C5FD /* 剑指 Offer 31. 栈的压入、弹出序列 */,
+				B66C1A452854CC8C00F1C5FD /* 926. 将字符串翻转到单调递增 */,
+				B66C1A5228557D1500F1C5FD /* 剑指 Offer 24. 反转链表 */,
+				B66C1A5E285588C700F1C5FD /* 剑指 Offer 26. 树的子结构 */,
+				B66C1A692855B18600F1C5FD /* 剑指 Offer 30. 包含min函数的栈 */,
+				B66C1A742855B4B700F1C5FD /* 剑指 Offer 54. 二叉搜索树的第k大节点 */,
+				B66C1A7F285626CE00F1C5FD /* 890. 查找和替换模式 */,
+				B66C1A8A2856313A00F1C5FD /* 剑指 Offer 32 - I. 从上到下打印二叉树 */,
+				B66C1A9528563D4B00F1C5FD /* 剑指 Offer 32 - III. 从上到下打印二叉树 III */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2156,6 +2408,12 @@
 		B6F418182847B2C2002FABE8 /* 剑指offer */ = {
 			isa = PBXGroup;
 			children = (
+				B66C1A9628563D4B00F1C5FD /* 剑指 Offer 32 - III. 从上到下打印二叉树 III */,
+				B66C1A8B2856313A00F1C5FD /* 剑指 Offer 32 - I. 从上到下打印二叉树 */,
+				B66C1A752855B4B700F1C5FD /* 剑指 Offer 54. 二叉搜索树的第k大节点 */,
+				B66C1A6A2855B18600F1C5FD /* 剑指 Offer 30. 包含min函数的栈 */,
+				B66C1A5F285588C700F1C5FD /* 剑指 Offer 26. 树的子结构 */,
+				B66C1A5328557D1500F1C5FD /* 剑指 Offer 24. 反转链表 */,
 				B66C1A37285497B500F1C5FD /* 剑指 Offer 31. 栈的压入、弹出序列 */,
 				B66C1A2C28543DBE00F1C5FD /* 剑指 Offer 17. 打印从1到最大的n位数 */,
 				B66C1A092853871900F1C5FD /* 剑指 Offer 16. 数值的整数次方 */,
@@ -2989,6 +3247,142 @@
 			productReference = B66C1A36285497B500F1C5FD /* 剑指 Offer 31. 栈的压入、弹出序列 */;
 			productType = "com.apple.product-type.tool";
 		};
+		B66C1A442854CC8C00F1C5FD /* 926. 将字符串翻转到单调递增 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66C1A492854CC8C00F1C5FD /* Build configuration list for PBXNativeTarget "926. 将字符串翻转到单调递增" */;
+			buildPhases = (
+				B66C1A412854CC8C00F1C5FD /* Sources */,
+				B66C1A422854CC8C00F1C5FD /* Frameworks */,
+				B66C1A432854CC8C00F1C5FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "926. 将字符串翻转到单调递增";
+			productName = "926. 将字符串翻转到单调递增";
+			productReference = B66C1A452854CC8C00F1C5FD /* 926. 将字符串翻转到单调递增 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B66C1A5128557D1500F1C5FD /* 剑指 Offer 24. 反转链表 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66C1A5628557D1500F1C5FD /* Build configuration list for PBXNativeTarget "剑指 Offer 24. 反转链表" */;
+			buildPhases = (
+				B66C1A4E28557D1500F1C5FD /* Sources */,
+				B66C1A4F28557D1500F1C5FD /* Frameworks */,
+				B66C1A5028557D1500F1C5FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "剑指 Offer 24. 反转链表";
+			productName = "剑指 Offer 24. 反转链表";
+			productReference = B66C1A5228557D1500F1C5FD /* 剑指 Offer 24. 反转链表 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B66C1A5D285588C700F1C5FD /* 剑指 Offer 26. 树的子结构 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66C1A62285588C700F1C5FD /* Build configuration list for PBXNativeTarget "剑指 Offer 26. 树的子结构" */;
+			buildPhases = (
+				B66C1A5A285588C700F1C5FD /* Sources */,
+				B66C1A5B285588C700F1C5FD /* Frameworks */,
+				B66C1A5C285588C700F1C5FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "剑指 Offer 26. 树的子结构";
+			productName = "剑指 Offer 26. 树的子结构";
+			productReference = B66C1A5E285588C700F1C5FD /* 剑指 Offer 26. 树的子结构 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B66C1A682855B18600F1C5FD /* 剑指 Offer 30. 包含min函数的栈 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66C1A6D2855B18600F1C5FD /* Build configuration list for PBXNativeTarget "剑指 Offer 30. 包含min函数的栈" */;
+			buildPhases = (
+				B66C1A652855B18600F1C5FD /* Sources */,
+				B66C1A662855B18600F1C5FD /* Frameworks */,
+				B66C1A672855B18600F1C5FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "剑指 Offer 30. 包含min函数的栈";
+			productName = "剑指 Offer 30. 包含min函数的栈";
+			productReference = B66C1A692855B18600F1C5FD /* 剑指 Offer 30. 包含min函数的栈 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B66C1A732855B4B700F1C5FD /* 剑指 Offer 54. 二叉搜索树的第k大节点 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66C1A782855B4B700F1C5FD /* Build configuration list for PBXNativeTarget "剑指 Offer 54. 二叉搜索树的第k大节点" */;
+			buildPhases = (
+				B66C1A702855B4B700F1C5FD /* Sources */,
+				B66C1A712855B4B700F1C5FD /* Frameworks */,
+				B66C1A722855B4B700F1C5FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "剑指 Offer 54. 二叉搜索树的第k大节点";
+			productName = "剑指 Offer 54. 二叉搜索树的第k大节点";
+			productReference = B66C1A742855B4B700F1C5FD /* 剑指 Offer 54. 二叉搜索树的第k大节点 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B66C1A7E285626CE00F1C5FD /* 890. 查找和替换模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66C1A83285626CE00F1C5FD /* Build configuration list for PBXNativeTarget "890. 查找和替换模式" */;
+			buildPhases = (
+				B66C1A7B285626CE00F1C5FD /* Sources */,
+				B66C1A7C285626CE00F1C5FD /* Frameworks */,
+				B66C1A7D285626CE00F1C5FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "890. 查找和替换模式";
+			productName = "890. 查找和替换模式";
+			productReference = B66C1A7F285626CE00F1C5FD /* 890. 查找和替换模式 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B66C1A892856313A00F1C5FD /* 剑指 Offer 32 - I. 从上到下打印二叉树 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66C1A8E2856313A00F1C5FD /* Build configuration list for PBXNativeTarget "剑指 Offer 32 - I. 从上到下打印二叉树" */;
+			buildPhases = (
+				B66C1A862856313A00F1C5FD /* Sources */,
+				B66C1A872856313A00F1C5FD /* Frameworks */,
+				B66C1A882856313A00F1C5FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "剑指 Offer 32 - I. 从上到下打印二叉树";
+			productName = "剑指 Offer 32 - I. 从上到下打印二叉树";
+			productReference = B66C1A8A2856313A00F1C5FD /* 剑指 Offer 32 - I. 从上到下打印二叉树 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B66C1A9428563D4A00F1C5FD /* 剑指 Offer 32 - III. 从上到下打印二叉树 III */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66C1A9928563D4B00F1C5FD /* Build configuration list for PBXNativeTarget "剑指 Offer 32 - III. 从上到下打印二叉树 III" */;
+			buildPhases = (
+				B66C1A9128563D4A00F1C5FD /* Sources */,
+				B66C1A9228563D4A00F1C5FD /* Frameworks */,
+				B66C1A9328563D4A00F1C5FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "剑指 Offer 32 - III. 从上到下打印二叉树 III";
+			productName = "剑指 Offer 32 - III. 从上到下打印二叉树 III";
+			productReference = B66C1A9528563D4B00F1C5FD /* 剑指 Offer 32 - III. 从上到下打印二叉树 III */;
+			productType = "com.apple.product-type.tool";
+		};
 		B685FE3627722157005D6F68 /* 1154. 一年中的第几天 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B685FE3D27722157005D6F68 /* Build configuration list for PBXNativeTarget "1154. 一年中的第几天" */;
@@ -3653,6 +4047,30 @@
 					B66C1A35285497B500F1C5FD = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
+					B66C1A442854CC8C00F1C5FD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B66C1A5128557D1500F1C5FD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B66C1A5D285588C700F1C5FD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B66C1A682855B18600F1C5FD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B66C1A732855B4B700F1C5FD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B66C1A7E285626CE00F1C5FD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B66C1A892856313A00F1C5FD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B66C1A9428563D4A00F1C5FD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
 					B685FE3627722157005D6F68 = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -3835,6 +4253,14 @@
 				B66C1A1328542F7100F1C5FD /* 位运算 */,
 				B66C1A2A28543DBE00F1C5FD /* 剑指 Offer 17. 打印从1到最大的n位数 */,
 				B66C1A35285497B500F1C5FD /* 剑指 Offer 31. 栈的压入、弹出序列 */,
+				B66C1A442854CC8C00F1C5FD /* 926. 将字符串翻转到单调递增 */,
+				B66C1A5128557D1500F1C5FD /* 剑指 Offer 24. 反转链表 */,
+				B66C1A5D285588C700F1C5FD /* 剑指 Offer 26. 树的子结构 */,
+				B66C1A682855B18600F1C5FD /* 剑指 Offer 30. 包含min函数的栈 */,
+				B66C1A732855B4B700F1C5FD /* 剑指 Offer 54. 二叉搜索树的第k大节点 */,
+				B66C1A7E285626CE00F1C5FD /* 890. 查找和替换模式 */,
+				B66C1A892856313A00F1C5FD /* 剑指 Offer 32 - I. 从上到下打印二叉树 */,
+				B66C1A9428563D4A00F1C5FD /* 剑指 Offer 32 - III. 从上到下打印二叉树 III */,
 			);
 		};
 /* End PBXProject section */
@@ -4181,6 +4607,70 @@
 			buildActionMask = 2147483647;
 			files = (
 				B66C1A39285497B500F1C5FD /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C1A412854CC8C00F1C5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66C1A482854CC8C00F1C5FD /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C1A4E28557D1500F1C5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66C1A5528557D1500F1C5FD /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C1A5A285588C700F1C5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66C1A61285588C700F1C5FD /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C1A652855B18600F1C5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66C1A6C2855B18600F1C5FD /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C1A702855B4B700F1C5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66C1A772855B4B700F1C5FD /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C1A7B285626CE00F1C5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66C1A82285626CE00F1C5FD /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C1A862856313A00F1C5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66C1A8D2856313A00F1C5FD /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C1A9128563D4A00F1C5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66C1A9828563D4B00F1C5FD /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5350,6 +5840,198 @@
 			name = Debug;
 		};
 		B66C1A3C285497B500F1C5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B66C1A4A2854CC8C00F1C5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B66C1A4B2854CC8C00F1C5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B66C1A5728557D1500F1C5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B66C1A5828557D1500F1C5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B66C1A63285588C700F1C5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B66C1A64285588C700F1C5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B66C1A6E2855B18600F1C5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B66C1A6F2855B18600F1C5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B66C1A792855B4B700F1C5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B66C1A7A2855B4B700F1C5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B66C1A84285626CE00F1C5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B66C1A85285626CE00F1C5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B66C1A8F2856313A00F1C5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B66C1A902856313A00F1C5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B66C1A9A28563D4B00F1C5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B66C1A9B28563D4B00F1C5FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -6538,6 +7220,78 @@
 			buildConfigurations = (
 				B66C1A3B285497B500F1C5FD /* Debug */,
 				B66C1A3C285497B500F1C5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66C1A492854CC8C00F1C5FD /* Build configuration list for PBXNativeTarget "926. 将字符串翻转到单调递增" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66C1A4A2854CC8C00F1C5FD /* Debug */,
+				B66C1A4B2854CC8C00F1C5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66C1A5628557D1500F1C5FD /* Build configuration list for PBXNativeTarget "剑指 Offer 24. 反转链表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66C1A5728557D1500F1C5FD /* Debug */,
+				B66C1A5828557D1500F1C5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66C1A62285588C700F1C5FD /* Build configuration list for PBXNativeTarget "剑指 Offer 26. 树的子结构" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66C1A63285588C700F1C5FD /* Debug */,
+				B66C1A64285588C700F1C5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66C1A6D2855B18600F1C5FD /* Build configuration list for PBXNativeTarget "剑指 Offer 30. 包含min函数的栈" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66C1A6E2855B18600F1C5FD /* Debug */,
+				B66C1A6F2855B18600F1C5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66C1A782855B4B700F1C5FD /* Build configuration list for PBXNativeTarget "剑指 Offer 54. 二叉搜索树的第k大节点" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66C1A792855B4B700F1C5FD /* Debug */,
+				B66C1A7A2855B4B700F1C5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66C1A83285626CE00F1C5FD /* Build configuration list for PBXNativeTarget "890. 查找和替换模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66C1A84285626CE00F1C5FD /* Debug */,
+				B66C1A85285626CE00F1C5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66C1A8E2856313A00F1C5FD /* Build configuration list for PBXNativeTarget "剑指 Offer 32 - I. 从上到下打印二叉树" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66C1A8F2856313A00F1C5FD /* Debug */,
+				B66C1A902856313A00F1C5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66C1A9928563D4B00F1C5FD /* Build configuration list for PBXNativeTarget "剑指 Offer 32 - III. 从上到下打印二叉树 III" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66C1A9A28563D4B00F1C5FD /* Debug */,
+				B66C1A9B28563D4B00F1C5FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -142,6 +142,18 @@ ListNode* stringToListNode(string input) {
     return ptr;
 }
 
+ListNode* vectorToListNode(vector<int> list){
+    ListNode* dummyRoot = new ListNode(0);
+    ListNode* ptr = dummyRoot;
+    for(int item : list) {
+        ptr->next = new ListNode(item);
+        ptr = ptr->next;
+    }
+    ptr = dummyRoot->next;
+    delete dummyRoot;
+    return ptr;
+}
+
 string listNodeToString(ListNode* node) {
     if (node == nullptr) {
         return "[]";

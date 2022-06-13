@@ -304,6 +304,16 @@
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
+		<key>890. 查找和替换模式.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>80</integer>
+		</dict>
+		<key>926. 将字符串翻转到单调递增.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>75</integer>
+		</dict>
 		<key>942. 增减字符串匹配.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -359,10 +369,40 @@
 			<key>orderHint</key>
 			<integer>32</integer>
 		</dict>
+		<key>剑指 Offer 24. 反转链表.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>76</integer>
+		</dict>
+		<key>剑指 Offer 26. 树的子结构.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>77</integer>
+		</dict>
+		<key>剑指 Offer 30. 包含min函数的栈.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>78</integer>
+		</dict>
 		<key>剑指 Offer 31. 栈的压入、弹出序列.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>74</integer>
+		</dict>
+		<key>剑指 Offer 32 - I. 从上到下打印二叉树.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>81</integer>
+		</dict>
+		<key>剑指 Offer 32 - III. 从上到下打印二叉树 III.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>82</integer>
+		</dict>
+		<key>剑指 Offer 54. 二叉搜索树的第k大节点.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>79</integer>
 		</dict>
 		<key>剑指 Offer II 114. 外星文字典.xcscheme_^#shared#^_</key>
 		<dict>

@@ -45,6 +45,30 @@ string.resize(n)
 
 
 
+## 队列 deque
+
+STL提供了双向队列，能够从头部和尾部取出元素
+
+- 访问队头元素
+
+```c++
+item = deque.front()
+```
+
+- 弹出队头元素
+
+```c++
+deque.pop_front()
+```
+
+- 添加元素
+
+```c++
+deque.push_back(item)
+```
+
+
+
 # unordered_map
 
 ### 遍历
