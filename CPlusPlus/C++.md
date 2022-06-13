@@ -137,6 +137,14 @@ vector<int> account;
 accumulate(account.begin(), account.end(), 0)
 ```
 
+- 从一个数组复制到另外一个数组
+
+```c++
+vector<int> A
+vector<int> B = vector<int>(A.begin(),A.begin() + offset);
+vector<int> C = vector<int>(A.begin(),A.end());
+```
+
 
 
 # 数学

@@ -612,5 +612,37 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B2E6F5E-AFE2-4BC5-86A5-C3FBE1E7240B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x5251;&#x6307;offer/&#x5251;&#x6307; Offer 33. &#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x7684;&#x540e;&#x5e8f;&#x904d;&#x5386;&#x5e8f;&#x5217;/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "verifyPostorder(postorder)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CBC757CA-A7AB-42B0-8BF9-B975836E7AD2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x5251;&#x6307;offer/&#x5251;&#x6307; Offer 33. &#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x7684;&#x540e;&#x5e8f;&#x904d;&#x5386;&#x5e8f;&#x5217;/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "verifyPostorder(postorder)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

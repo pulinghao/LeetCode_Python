@@ -399,6 +399,16 @@
 			<key>orderHint</key>
 			<integer>82</integer>
 		</dict>
+		<key>剑指 Offer 33. 二叉搜索树的后序遍历序列.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>83</integer>
+		</dict>
+		<key>剑指 Offer 34. 二叉树中和为某一值的路径.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>84</integer>
+		</dict>
 		<key>剑指 Offer 54. 二叉搜索树的第k大节点.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>

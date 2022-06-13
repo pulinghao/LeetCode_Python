@@ -154,6 +154,57 @@ ListNode* vectorToListNode(vector<int> list){
     return ptr;
 }
 
+
+TreeNode *vectorToTreeNode(vector<string> input, int level){
+    if (input[level] == "#") {
+        return NULL;
+    }
+    TreeNode *root = (TreeNode *)malloc(sizeof(TreeNode));
+    root->val = stringToInteger(input[level]);
+    
+    if(2 * level + 1 < input.size()){
+        root->left = vectorToTreeNode(input, 2 * level + 1);
+    }
+    
+    if(2 * level + 2 < input.size()){
+        root->right = vectorToTreeNode(input, 2 * level + 2);
+    }
+    return root;
+}
+
+TreeNode *vectorToTreeNode(vector<string> input){
+    return vectorToTreeNode(input, 0);
+}
+
+
+TreeNode *stringToTreeNode(string input){
+    string subString = input.substr(1, input.size() - 2);
+    vector<string> arr;
+    int start = 0;
+    for (int i = 0; i < subString.size(); i++) {
+        if (subString[i] == ',') {
+            string tempSub = subString.substr(start,i - start);
+            if (tempSub == "null") {
+                arr.push_back("#");
+            } else {
+                arr.push_back(tempSub);
+            }
+            start = i + 1;
+        }
+    }
+    
+    string tempSub = subString.substr(start,subString.size() - start);
+    if (tempSub == "null") {
+        arr.push_back("#");
+    } else {
+        arr.push_back(tempSub);
+    }
+    
+    return vectorToTreeNode(arr);
+}
+
+
+
 string listNodeToString(ListNode* node) {
     if (node == nullptr) {
         return "[]";
