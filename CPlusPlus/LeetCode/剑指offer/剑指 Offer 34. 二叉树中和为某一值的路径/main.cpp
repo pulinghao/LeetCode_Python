@@ -40,7 +40,9 @@ public:
 int main(int argc, const char * argv[]) {
     // insert code here...
     string root = "[5,4,8,11,null,13,4,7,2,null,null,5,1]";
+//    string root = "[1,null,2]";
     TreeNode *node = stringToTreeNode(root);
-    std::cout << "Hello, World!\n";
+    string nodeStr = treeNodeToString(node);
+    std::cout << nodeStr<<endl;
     return 0;
 }

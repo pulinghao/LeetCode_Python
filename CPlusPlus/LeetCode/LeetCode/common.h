@@ -155,25 +155,51 @@ ListNode* vectorToListNode(vector<int> list){
 }
 
 
-TreeNode *vectorToTreeNode(vector<string> input, int level){
-    if (input[level] == "#") {
-        return NULL;
-    }
-    TreeNode *root = (TreeNode *)malloc(sizeof(TreeNode));
-    root->val = stringToInteger(input[level]);
-    
-    if(2 * level + 1 < input.size()){
-        root->left = vectorToTreeNode(input, 2 * level + 1);
-    }
-    
-    if(2 * level + 2 < input.size()){
-        root->right = vectorToTreeNode(input, 2 * level + 2);
-    }
-    return root;
-}
 
 TreeNode *vectorToTreeNode(vector<string> input){
-    return vectorToTreeNode(input, 0);
+    if (input.size() == 0) {
+        return NULL;
+    }
+
+    TreeNode *root = (TreeNode *)malloc(sizeof(TreeNode));
+    root->val = stringToInteger(input[0]);
+    
+    deque<TreeNode *> queue;
+    int index = 1;
+    int front = 0;
+    queue.push_back(root);
+    while(index < input.size()){
+        TreeNode *node = queue[front];
+        front += 1;
+        string value = input[index];
+        index += 1;
+        if (value != "#") {
+            int leftValue = stringToInteger(value);
+            TreeNode *p = new TreeNode();
+            p->val = leftValue;
+            node->left = p;
+            queue.push_back(node->left);
+        } else {
+            node->left = NULL;
+        }
+        
+        if (index >= input.size()){
+            break;
+        }
+        
+        value = input[index];
+        index += 1;
+        if (value != "#") {
+            int rightValue = stringToInteger(value);
+            TreeNode *p = new TreeNode();
+            p->val = rightValue;
+            node->right = p;
+            queue.push_back(node->right);
+        } else {
+            node->right = NULL;
+        }
+    }
+    return root;
 }
 
 
@@ -203,6 +229,33 @@ TreeNode *stringToTreeNode(string input){
     return vectorToTreeNode(arr);
 }
 
+string treeNodeToString(TreeNode *root){
+    string res;
+    if (!root) {
+        return "[]";
+    }
+    
+    deque<TreeNode *> queue;
+    queue.push_back(root);
+    while(!queue.empty()){
+        TreeNode *front = queue.front();
+        
+        queue.pop_front();
+        if (front) {
+            int val = front->val;
+            res.append(to_string(val));
+            res += ", ";
+        } else {
+            res += "null, ";
+        }
+        
+        if (front) {
+            queue.push_back(front->left);
+            queue.push_back(front->right);
+        }
+    }
+    return "[" + res.substr(0,res.length() - 2) + "]";
+}
 
 
 string listNodeToString(ListNode* node) {

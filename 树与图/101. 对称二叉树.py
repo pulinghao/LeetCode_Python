@@ -65,9 +65,11 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    line = "[1,2,2,null,3,3]"
-    root = leetcode_utils.stringToTreeNode(line)
+    # line = "[1,2,2,null,3,3]"
+    line2 = "[5,4,8,11,null,13,4,7,2,null,null,5,1]"
+    root = leetcode_utils.stringToTreeNode(line2)
+    line3 = leetcode_utils.treeNodeToString(root)
+    print line3
+    # ret = Solution().isSymmetric(root)
 
-    ret = Solution().isSymmetric(root)
-
-    print ret
+    # print ret
