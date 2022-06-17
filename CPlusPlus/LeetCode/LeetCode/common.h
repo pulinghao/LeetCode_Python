@@ -271,4 +271,79 @@ string listNodeToString(ListNode* node) {
     return "[" + result.substr(0, result.length() - 2) + "]";
 }
 
+
+/// 随机分治
+/// @param nums <#nums description#>
+int randomPartion(vector<int>& nums,int start, int end){
+    if (nums.size() == 0) {
+        return -1;
+    }
+    
+    if (start < 0 || end >= nums.size()) {
+        return -1;
+    }
+    
+    int index = rand() % (end - start + 1 ) + start ;
+    // 指向比索引数大的数
+    int small = start - 1;
+    // 交换索引数
+    swap(nums[index], nums[end]);
+    
+    for(index = start; index < end; index ++){
+        if (nums[index] < nums[end]) {
+            small++;
+            if (small != index) {
+                swap(nums[small], nums[index]);
+            }
+        }
+    }
+//    for(index = start; index < end; index ++){
+//        if (nums[index] > nums[end]) {
+//            swap(nums[small], nums[index]);
+//        } else {
+//            small++;
+//        }
+//    }
+    small++;
+    swap(nums[small], nums[end]);
+    return small;
+}
+
+/// 随机分治
+/// @param nums <#nums description#>
+int randomPartion2(vector<int>& nums,int start, int end){
+    if (nums.size() == 0) {
+        return -1;
+    }
+    
+    if (start < 0 || end >= nums.size()) {
+        return -1;
+    }
+    
+    int index = 0 ;
+    // 指向比索引数大的数
+    int indexNum = nums[index];
+    int i = start;
+    int j = end;
+    swap(nums[start],nums[index]);
+    while(i < j){
+        while(i < j && nums[j] >= indexNum) j--;
+        while(i < j && nums[i] <= indexNum) i++;
+        swap(nums[i], nums[j]);
+    }
+    swap(nums[i], nums[index]);
+    return i;
+}
+
+int partion(vector<int> &nums,int l,int r){
+    int i = l;
+    int j = r;
+    while(i < j){
+        while(i < j && nums[j] >= nums[l]) j--;
+        while(i < j && nums[i] <= nums[l]) i++;
+        swap(nums[i], nums[j]);
+    }
+    swap(nums[i], nums[l]);
+    return i;
+}
 #endif /* common_h */
