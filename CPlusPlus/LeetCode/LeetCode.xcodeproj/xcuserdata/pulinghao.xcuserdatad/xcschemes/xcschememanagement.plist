@@ -14,6 +14,16 @@
 			<key>orderHint</key>
 			<integer>21</integer>
 		</dict>
+		<key>1089. 复写零 1.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>90</integer>
+		</dict>
+		<key>1089. 复写零.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>89</integer>
+		</dict>
 		<key>1104. 二叉树寻路.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -426,6 +436,16 @@
 			<key>orderHint</key>
 			<integer>88</integer>
 		</dict>
+		<key>剑指 Offer 43. 1～n 整数中 1 出现的次数.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>91</integer>
+		</dict>
+		<key>剑指 Offer 51. 数组中的逆序对.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>92</integer>
+		</dict>
 		<key>剑指 Offer 54. 二叉搜索树的第k大节点.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -455,6 +475,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>B66C1AAA28578EDC00F1C5FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B66C1B77285CD08B00F1C5FD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

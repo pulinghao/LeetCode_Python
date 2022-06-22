@@ -5,6 +5,8 @@
 ```c++
 char a = '0';
 int ia = a - '0';
+
+int iia = atoi(a); //stdlib.h
 ```
 
 ## string 转int
@@ -96,7 +98,7 @@ if (!edges.count(key)) {
 
 # vector
 
-- 判断是否为空
+## 判断是否为空
 
 ```c++
 vector<int>& arr;
@@ -105,30 +107,41 @@ if(arr.empty()){
 }
 ```
 
-
-
-- 反转
+## 反转
 
 ```c++
 vector<int>& arr;
 reverse(arr.begin(), arr.begin() + n);
 ```
 
-- 排序
+## 排序
 
-  - 按照字符串长度和字母序排序
+- 按照字符串长度和字母序排序
 
-  ```c++
-  vector<string>& words;
-  sort(words.begin(), words.end(), [](const string &a, const string &b) {
-    // 如果两个字符串长度不相等，返回 更长的字符串；
-    // 如果两个字符串长度相等，返回 字母序靠前的字符串
-  	return a.size() != b.size() ? a.size() < b.size() : a > b;
-  });
-  ```
+```c++
+vector<string>& words;
+sort(words.begin(), words.end(), [](const string &a, const string &b) {
+  // 如果两个字符串长度不相等，返回 更长的字符串；
+  // 如果两个字符串长度相等，返回 字母序靠前的字符串
+	return a.size() != b.size() ? a.size() < b.size() : a > b;
+});
+```
 
 
-- 求和`accumulate`
+- 按照某个算法排序，例如按照两者组合后的结果顺序排序
+
+```c++
+ vector<string> strs;
+ sort(strs.begin(),strs.end(),compare);
+ static bool compare(const string &a,const string &b)
+{
+    return a+b<b+a;
+}
+```
+
+
+
+## 求和`accumulate`
 
 ```c++
 #include<numeric>
