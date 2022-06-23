@@ -45,9 +45,17 @@ str.find(goal) != string::npos;
 string.resize(n)
 ```
 
+## 子字符串
+
+取从pos开始，长度为length的子字符串
+
+```c++
+str.substr(pos,length); 
+```
 
 
-## 队列 deque
+
+# 队列 deque
 
 STL提供了双向队列，能够从头部和尾部取出元素
 
@@ -71,7 +79,7 @@ deque.push_back(item)
 
 
 
-# unordered_map
+# 字典 unordered_map
 
 ### 遍历
 
@@ -92,11 +100,13 @@ unordered_map<char, vector<char>> edges;
 if (!edges.count(key)) {
     edges[key] = vector<char>();
 }
+
+edges.find(key) != edges.end()//查
 ```
 
 
 
-# vector
+# 数组 vector
 
 ## 判断是否为空
 

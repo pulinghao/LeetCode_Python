@@ -36,9 +36,33 @@ vector<int> getLeastNumbers(vector<int>& arr, int k) {
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    vector<int> input = {0,0,0,2,0,5};
-//    int i = partion(input, 0, input.size() - 1);
-    vector<int> res = getLeastNumbers(input, 0);
-    std::cout << i;
+    vector<int> k{ 1,2,3 };
+    vector<int> q;
+    vector<int>* p;
+    vector<int>* qq;
+    shared_ptr<vector<int>> sp;
+//    vector<int>* p;
+//    p = &k;
+    for (int i = 0; i < 3; i++) {
+        vector<int> temp;
+        temp.push_back(i + 1);
+        p = &temp;
+        q = temp;
+        qq = &q;
+        
+       
+    }
+    
+    cout<<p->at(0);
+    
+    p->push_back(4);
+    for (int i = 0; i < p->size(); i++)
+    {
+        cout << p->at(i) << ' ';
+    }
+    
+    //1 1 1
+
+    cout<<endl;
     return 0;
 }
