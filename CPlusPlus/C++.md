@@ -170,6 +170,24 @@ vector<int> C = vector<int>(A.begin(),A.end());
 
 
 
+# struct
+
+- struct内部使用vector
+
+```c++
+struct TrieTreeNode
+{
+    bool end;
+    vector<TrieTreeNode *> children = vector<TrieTreeNode *>(26,nullptr); //ok
+  	vector<TrieTreeNode *> children2(23,nullptr);   // bad
+    vector<int> son(12);  // bad
+    vector<TrieTreeNode *> chidlren3; //ok
+};
+
+```
+
+
+
 # 数学
 
 - `__builtin_popcount(x)`
