@@ -1,3 +1,4 @@
+```c++
 //
 //  common.h
 //  LeetCode
@@ -404,3 +405,6 @@ std::string SubString(const std::string& string, int beginIndex, int endIndex) {
 }
 
 #endif /* common_h */
+
+```
+

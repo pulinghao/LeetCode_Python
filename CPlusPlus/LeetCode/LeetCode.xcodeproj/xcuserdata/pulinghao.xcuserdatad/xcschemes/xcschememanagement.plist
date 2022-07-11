@@ -17,12 +17,12 @@
 		<key>1089. 复写零 1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>90</integer>
+			<integer>8</integer>
 		</dict>
 		<key>1089. 复写零.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>89</integer>
+			<integer>7</integer>
 		</dict>
 		<key>1104. 二叉树寻路.xcscheme_^#shared#^_</key>
 		<dict>
@@ -78,6 +78,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>43</integer>
+		</dict>
+		<key>148. 排序链表.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
 		</dict>
 		<key>1609. 奇偶树.xcscheme_^#shared#^_</key>
 		<dict>
@@ -456,6 +461,21 @@
 			<key>orderHint</key>
 			<integer>93</integer>
 		</dict>
+		<key>剑指 Offer 57 - II. 和为s的连续正数序列.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>剑指 Offer 60. n个骰子的点数.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>剑指 Offer II 091. 粉刷房子.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>剑指 Offer II 114. 外星文字典.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -485,6 +505,26 @@
 			<true/>
 		</dict>
 		<key>B66C1B77285CD08B00F1C5FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B66C1C3E2867628A00F1C5FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B66C1C49286A0A9800F1C5FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B66C1C5F286BF25B00F1C5FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B66C1C75286C599A00F1C5FD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

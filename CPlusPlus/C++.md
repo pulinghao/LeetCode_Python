@@ -77,6 +77,18 @@ deque.pop_front()
 deque.push_back(item)
 ```
 
+# 栈
+
+```c++
+stack<int> q;	//以int型为例
+int x;
+q.push(x);		//将x压入栈顶
+int top = q.top();		//返回栈顶的元素
+q.pop();		//删除栈顶的元素
+int size = q.size();		//返回栈中元素的个数
+bool isEmtpq.empty();		//检查栈是否为空,若为空返回true,否则返回false
+```
+
 
 
 # 字典 unordered_map
@@ -160,12 +172,25 @@ vector<int> account;
 accumulate(account.begin(), account.end(), 0)
 ```
 
-- 从一个数组复制到另外一个数组
+## 复制
+
+从一个数组复制到另外一个数组
 
 ```c++
 vector<int> A
 vector<int> B = vector<int>(A.begin(),A.begin() + offset);
 vector<int> C = vector<int>(A.begin(),A.end());
+```
+
+## 最大最小值
+
+```c++
+#include <vector>
+#include <algorithm>
+
+vector<double> s;
+double min = *min_element(s.begin(), s.end());//返回s中的最小值
+double max= *max_element(s.begin(), s.end());//返回最大值
 ```
 
 
@@ -193,4 +218,18 @@ struct TrieTreeNode
 - `__builtin_popcount(x)`
 
 精确计算二进制中1的个数
+
+## 随机数
+
+从`[start,end]`的随机数
+
+```c++
+rand() % (end - start + 1 ) + start 
+```
+
+从`[start,end)`的随机数
+
+```c++
+rand() % (end - start) + start 
+```
 
