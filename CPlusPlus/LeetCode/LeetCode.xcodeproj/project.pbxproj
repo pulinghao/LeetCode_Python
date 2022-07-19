@@ -24,6 +24,7 @@
 		B60CF43427AAB176008D0D17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60CF43327AAB176008D0D17 /* main.cpp */; };
 		B60E128326EF5E7B00A5A798 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60E128226EF5E7B00A5A798 /* main.cpp */; };
 		B616577C287C1D7C005E1087 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B616577B287C1D7C005E1087 /* main.cpp */; };
+		B61657A6287E5D1A005E1087 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B61657A5287E5D1A005E1087 /* main.cpp */; };
 		B62FF44227AD723A00E3EB9B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B62FF44127AD723A00E3EB9B /* main.cpp */; };
 		B62FF44D27AECD7C00E3EB9B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B62FF44C27AECD7C00E3EB9B /* main.cpp */; };
 		B62FF45827B00BA800E3EB9B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B62FF45727B00BA800E3EB9B /* main.cpp */; };
@@ -253,6 +254,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		B6165777287C1D7C005E1087 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B61657A1287E5D1A005E1087 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -1054,6 +1064,8 @@
 		B60E128226EF5E7B00A5A798 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B6165779287C1D7C005E1087 /* 字典树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "字典树"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B616577B287C1D7C005E1087 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B61657A3287E5D1A005E1087 /* 735. 行星碰撞 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "735. 行星碰撞"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61657A5287E5D1A005E1087 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B62FF43F27AD723A00E3EB9B /* 1725. 可以形成最大正方形的矩形数目 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1725. 可以形成最大正方形的矩形数目"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62FF44127AD723A00E3EB9B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B62FF44A27AECD7C00E3EB9B /* 1219. 黄金矿工 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1219. 黄金矿工"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1346,6 +1358,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B6165776287C1D7C005E1087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61657A0287E5D1A005E1087 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2079,6 +2098,14 @@
 			path = "字典树";
 			sourceTree = "<group>";
 		};
+		B61657A4287E5D1A005E1087 /* 735. 行星碰撞 */ = {
+			isa = PBXGroup;
+			children = (
+				B61657A5287E5D1A005E1087 /* main.cpp */,
+			);
+			path = "735. 行星碰撞";
+			sourceTree = "<group>";
+		};
 		B62FF44027AD723A00E3EB9B /* 1725. 可以形成最大正方形的矩形数目 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2671,6 +2698,7 @@
 				B6E44A25286ACA1700BBC223 /* 剑指 Offer 12. 矩阵中的路径 */,
 				B616577A287C1D7C005E1087 /* 字典树 */,
 				B66C1C77286C599B00F1C5FD /* 148. 排序链表 */,
+				B61657A4287E5D1A005E1087 /* 735. 行星碰撞 */,
 				B6C1F3722669BB560090FE03 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2779,6 +2807,7 @@
 				B66C1C60286BF25C00F1C5FD /* 剑指 Offer 60. n个骰子的点数 */,
 				B66C1C6B286BFA9100F1C5FD /* 剑指 Offer 59 - I. 滑动窗口的最大值 */,
 				B66C1C76286C599A00F1C5FD /* 148. 排序链表 */,
+				B61657A3287E5D1A005E1087 /* 735. 行星碰撞 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3321,6 +3350,23 @@
 			name = "字典树";
 			productName = "字典树";
 			productReference = B6165779287C1D7C005E1087 /* 字典树 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B61657A2287E5D1A005E1087 /* 735. 行星碰撞 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61657A9287E5D1A005E1087 /* Build configuration list for PBXNativeTarget "735. 行星碰撞" */;
+			buildPhases = (
+				B616579F287E5D1A005E1087 /* Sources */,
+				B61657A0287E5D1A005E1087 /* Frameworks */,
+				B61657A1287E5D1A005E1087 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "735. 行星碰撞";
+			productName = "735. 行星碰撞";
+			productReference = B61657A3287E5D1A005E1087 /* 735. 行星碰撞 */;
 			productType = "com.apple.product-type.tool";
 		};
 		B62FF43E27AD723A00E3EB9B /* 1725. 可以形成最大正方形的矩形数目 */ = {
@@ -4810,6 +4856,9 @@
 					B6165778287C1D7C005E1087 = {
 						CreatedOnToolsVersion = 13.4;
 					};
+					B61657A2287E5D1A005E1087 = {
+						CreatedOnToolsVersion = 13.4;
+					};
 					B62FF43E27AD723A00E3EB9B = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -5178,6 +5227,7 @@
 				B66C1C5F286BF25B00F1C5FD /* 剑指 Offer 60. n个骰子的点数 */,
 				B66C1C6A286BFA9100F1C5FD /* 剑指 Offer 59 - I. 滑动窗口的最大值 */,
 				B66C1C75286C599A00F1C5FD /* 148. 排序链表 */,
+				B61657A2287E5D1A005E1087 /* 735. 行星碰撞 */,
 			);
 		};
 /* End PBXProject section */
@@ -5316,6 +5366,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B616577C287C1D7C005E1087 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B616579F287E5D1A005E1087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61657A6287E5D1A005E1087 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6352,6 +6410,30 @@
 			name = Debug;
 		};
 		B616577E287C1D7C005E1087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B61657A7287E5D1A005E1087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E2J3QZ8ZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B61657A8287E5D1A005E1087 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -8512,6 +8594,15 @@
 			buildConfigurations = (
 				B616577D287C1D7C005E1087 /* Debug */,
 				B616577E287C1D7C005E1087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B61657A9287E5D1A005E1087 /* Build configuration list for PBXNativeTarget "735. 行星碰撞" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61657A7287E5D1A005E1087 /* Debug */,
+				B61657A8287E5D1A005E1087 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

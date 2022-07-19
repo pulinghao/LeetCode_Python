@@ -94,6 +94,21 @@ vector<int> stringToIntegerVector(string input) {
     return output;
 }
 
+vector<char> stringToCharVector(string input) {
+    vector<char> output;
+    trimLeftTrailingSpaces(input);
+    trimRightTrailingSpaces(input);
+    input = input.substr(1, input.length() - 2);
+    stringstream ss;
+    ss.str(input);
+    string item;
+    char delim = ',';
+    while (getline(ss, item, delim)) {
+        output.push_back(item[0]);
+    }
+    return output;
+}
+
 vector<vector<int>> stringToIntegerVectors(string input){
     vector<vector<int>> output;
     trimLeftTrailingSpaces(input);
@@ -110,6 +125,38 @@ vector<vector<int>> stringToIntegerVectors(string input){
         } else if(input[i] == ']'){
             tempStr.push_back(input[i]);
             vector<int> outLine = stringToIntegerVector(tempStr);
+            output.push_back(outLine);
+            tempStr.clear();
+        } else {
+            if (input[i] == ',') {
+                if (tempStr.size() == 0) {
+                    continue;
+                } else {
+                    tempStr.push_back(input[i]);
+                }
+            }
+        }
+    }
+    
+    return output;
+}
+
+vector<vector<char>> stringToCharVectors(string input){
+    vector<vector<char>> output;
+    trimLeftTrailingSpaces(input);
+    trimRightTrailingSpaces(input);
+    input = input.substr(1, input.length() - 2);
+    
+    string tempStr;
+    stack<char> st;
+    for (int i = 0; i < input.size(); i++) {
+        if (input[i] == '[') {
+            tempStr.push_back(input[i]);
+        } else if(isnumber(input[i])){
+            tempStr.push_back(input[i]);
+        } else if(input[i] == ']'){
+            tempStr.push_back(input[i]);
+            vector<char> outLine = stringToCharVector(tempStr);
             output.push_back(outLine);
             tempStr.clear();
         } else {
